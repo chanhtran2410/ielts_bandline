@@ -14,7 +14,8 @@ import { countWords } from './content-lib';
  *    paragraphs, so we letter them on import by splitting on blank lines.
  *  - Option pools live on the question, not the group.
  *  - There are no explanations at all. We import `explanation` as absent rather
- *    than inventing reasoning — see scripts/backfill-explanations.ts.
+ *    than inventing reasoning. Explanations must be written by hand or generated
+ *    and reviewed; there is no honest shortcut.
  *  - Type names are hyphenated and include one type we render differently.
  *
  * Usage: npx tsx scripts/import-ielts-ai-dataset.ts .scratch/ext

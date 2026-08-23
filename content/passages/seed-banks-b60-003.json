@@ -1,0 +1,188 @@
+{
+  "slug": "seed-banks-b60-003",
+  "title": "Banking the World's Seeds",
+  "topic": "agriculture and conservation",
+  "targetBand": 6.0,
+  "source": "authored",
+  "paragraphs": [
+    {
+      "letter": "A",
+      "text": "Agriculture has narrowed. Of the several thousand plant species that human societies have eaten at some point in their history, fewer than twenty now supply the great majority of the calories consumed worldwide, and within each of those species the range of varieties actually planted has contracted sharply. A farmer in nineteenth-century India might have chosen among dozens of local rices, each suited to a particular depth of flooding or length of season. Most of those varieties are no longer grown. The gain in yield has been real, but so has the loss, because a crop grown as a small number of near-identical varieties is vulnerable in a way that a diverse one is not."
+    },
+    {
+      "letter": "B",
+      "text": "The reason is straightforward. A disease that can defeat one variety can defeat every plant carrying the same genetic defence, and a field of genetically similar plants offers no barrier to its spread. The clearest demonstration came in 1970, when a fungus swept through the maize crop of the United States, destroying roughly a sixth of the harvest. The vulnerability had a single cause: almost all commercial hybrid maize of the period shared one genetic trait that the fungus happened to exploit. Resistance was eventually found, but it was found in older varieties that commercial breeding had set aside decades earlier, and which survived only because someone had kept them."
+    },
+    {
+      "letter": "C",
+      "text": "Keeping them is the business of the gene bank. There are now well over a thousand such collections worldwide, holding several million samples between them. Most seeds can be stored for decades if they are dried to a low moisture content and held below freezing, and a well-run bank will test the germination of each sample periodically, growing out a portion whenever the proportion that sprouts begins to fall. This last step is the expensive one. Regeneration requires land, labour and a season, and it must be repeated indefinitely, which means a gene bank is not a warehouse but a permanent agricultural operation."
+    },
+    {
+      "letter": "D",
+      "text": "That permanence is precisely what has proved hard to guarantee. Gene banks depend on continuous funding and on the stability of the institution that houses them, and both have failed in practice. Collections have been lost to war, to flooding and, most often, to the quiet withdrawal of a budget line. The best-known response is the facility opened in 2008 inside a mountain on the Arctic island of Spitsbergen, which holds duplicate samples deposited by banks elsewhere and is intended to be opened only if an original collection is destroyed. It is a backup rather than a working collection, and its first withdrawal came sooner than its designers expected, when a bank in Aleppo had to be evacuated during the Syrian war."
+    },
+    {
+      "letter": "E",
+      "text": "Even a secure collection raises a harder question, which is who may use what it holds. Much of the material in the world's banks was gathered from farms in Asia, Africa and South America by expeditions from wealthier countries, at a time when seeds were treated as a common inheritance available to anyone. When plant breeding became commercially valuable, the countries of origin objected that varieties developed by their farmers over many generations were being used to create protected commercial products from which they received nothing. An international agreement now governs access, allowing breeders to draw on the collections in exchange for payments into a fund that supports conservation in the countries the material came from."
+    },
+    {
+      "letter": "F",
+      "text": "The arrangement satisfies neither side completely, and the practical objection is more interesting than the political one. A seed in a freezer stops evolving. The variety a bank preserves is the variety as it existed on the day it was collected, whereas the pests and the climate it was adapted to have continued to change. Some agronomists therefore argue that conservation on the farm matters as much as conservation in storage, because a variety still being grown, selected and exchanged by farmers is a variety still adapting. The two approaches are not alternatives, and the current view is that a collection is best understood as insurance against the failure of the living system rather than as a replacement for it."
+    }
+  ],
+  "groups": [
+    {
+      "type": "matching_headings",
+      "position": 1,
+      "heading": "Questions 1–6 · Matching Headings",
+      "instruction": "Choose the correct heading for each paragraph from the list below.",
+      "optionsTitle": "List of headings",
+      "options": [
+        { "value": "i", "label": "Why uniformity invites disaster" },
+        { "value": "ii", "label": "The argument over who owns the material" },
+        { "value": "iii", "label": "A shrinking range of crops" },
+        { "value": "iv", "label": "How a collection is actually maintained" },
+        { "value": "v", "label": "The limits of freezing, and the case for the field" },
+        { "value": "vi", "label": "Collections that were not permanent after all" },
+        { "value": "vii", "label": "Comparing yields between continents" },
+        { "value": "viii", "label": "Building the Arctic tunnel" }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Paragraph A",
+          "acceptedAnswers": ["iii"],
+          "skillIds": ["main_idea"],
+          "explanation": "The paragraph opens with 'Agriculture has narrowed' and gives figures for how few species and varieties remain in use. Heading vii is a distractor built on the word 'yield', which appears once and is not the paragraph's subject.",
+          "evidenceParagraph": "A",
+          "evidence": "Agriculture has narrowed."
+        },
+        {
+          "position": 2,
+          "prompt": "Paragraph B",
+          "acceptedAnswers": ["i"],
+          "skillIds": ["main_idea", "paraphrasing"],
+          "explanation": "The paragraph explains why genetic similarity is dangerous and illustrates it with the 1970 maize epidemic. 'Uniformity invites disaster' paraphrases that argument.",
+          "evidenceParagraph": "B",
+          "evidence": "a field of genetically similar plants offers no barrier to its spread"
+        },
+        {
+          "position": 3,
+          "prompt": "Paragraph C",
+          "acceptedAnswers": ["iv"],
+          "skillIds": ["main_idea"],
+          "explanation": "Drying, freezing, germination testing and regeneration are the operations of keeping a collection alive. The paragraph is about method, not policy.",
+          "evidenceParagraph": "C",
+          "evidence": "a gene bank is not a warehouse but a permanent agricultural operation"
+        },
+        {
+          "position": 4,
+          "prompt": "Paragraph D",
+          "acceptedAnswers": ["vi"],
+          "skillIds": ["main_idea", "inference"],
+          "explanation": "The paragraph is about collections failing — through war, flood and lost funding — and the backup built in response. Heading viii is the trap: the Arctic facility is described, but as an answer to the failures, not as a construction story.",
+          "evidenceParagraph": "D",
+          "evidence": "That permanence is precisely what has proved hard to guarantee."
+        },
+        {
+          "position": 5,
+          "prompt": "Paragraph E",
+          "acceptedAnswers": ["ii"],
+          "skillIds": ["main_idea"],
+          "explanation": "The paragraph asks 'who may use what it holds' and traces the dispute between countries of origin and commercial breeders to the agreement that now governs access.",
+          "evidenceParagraph": "E",
+          "evidence": "which is who may use what it holds"
+        },
+        {
+          "position": 6,
+          "prompt": "Paragraph F",
+          "acceptedAnswers": ["v"],
+          "skillIds": ["main_idea", "inference"],
+          "explanation": "The controlling idea is that 'a seed in a freezer stops evolving', which is why on-farm conservation is argued to matter alongside storage.",
+          "evidenceParagraph": "F",
+          "evidence": "A seed in a freezer stops evolving."
+        }
+      ]
+    },
+    {
+      "type": "summary_completion",
+      "position": 2,
+      "heading": "Questions 7–10 · Summary Completion",
+      "instruction": "Complete the summary with NO MORE THAN TWO WORDS from the passage for each answer.",
+      "maxWords": 2,
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "In 1970 a __________ destroyed about a sixth of the United States maize harvest.",
+          "acceptedAnswers": ["fungus"],
+          "skillIds": ["scanning"],
+          "explanation": "Paragraph B: 'a fungus swept through the maize crop of the United States'.",
+          "evidenceParagraph": "B"
+        },
+        {
+          "position": 2,
+          "prompt": "Seeds keep for decades if they are dried and stored below __________.",
+          "acceptedAnswers": ["freezing"],
+          "skillIds": ["scanning"],
+          "explanation": "Paragraph C: 'dried to a low moisture content and held below freezing'.",
+          "evidenceParagraph": "C"
+        },
+        {
+          "position": 3,
+          "prompt": "Banks periodically test the __________ of each stored sample.",
+          "acceptedAnswers": ["germination"],
+          "skillIds": ["scanning", "paraphrasing"],
+          "explanation": "Paragraph C: 'will test the germination of each sample periodically'.",
+          "evidenceParagraph": "C"
+        },
+        {
+          "position": 4,
+          "prompt": "The Spitsbergen facility is described as a __________ rather than a working collection.",
+          "acceptedAnswers": ["backup"],
+          "skillIds": ["scanning"],
+          "explanation": "Paragraph D: 'It is a backup rather than a working collection'.",
+          "evidenceParagraph": "D"
+        }
+      ]
+    },
+    {
+      "type": "yes_no_not_given",
+      "position": 3,
+      "heading": "Questions 11–13 · Yes / No / Not Given",
+      "instruction": "Do the following statements agree with the claims of the writer? Write YES, NO or NOT GIVEN.",
+      "options": [
+        { "value": "YES", "label": "Yes" },
+        { "value": "NO", "label": "No" },
+        { "value": "NOT GIVEN", "label": "Not Given" }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Storing seeds in a bank can fully replace growing old varieties on farms.",
+          "acceptedAnswers": ["NO"],
+          "skillIds": ["inference", "main_idea"],
+          "explanation": "Paragraph F argues the opposite: a collection is 'insurance against the failure of the living system rather than as a replacement for it'. The writer explicitly rejects the claim, so NO.",
+          "evidenceParagraph": "F",
+          "evidence": "rather than as a replacement for it"
+        },
+        {
+          "position": 2,
+          "prompt": "The writer accepts that regenerating stored samples is costly.",
+          "acceptedAnswers": ["YES"],
+          "skillIds": ["scanning", "paraphrasing"],
+          "explanation": "Paragraph C calls regeneration 'the expensive one' and lists the land, labour and time it requires.",
+          "evidenceParagraph": "C",
+          "evidence": "This last step is the expensive one."
+        },
+        {
+          "position": 3,
+          "prompt": "Most gene banks are now funded by private seed companies.",
+          "acceptedAnswers": ["NOT GIVEN"],
+          "skillIds": ["inference"],
+          "explanation": "Funding is discussed in paragraph D only as something that has been withdrawn. Who provides it is never stated, so the passage neither supports nor contradicts this.",
+          "evidenceParagraph": "D"
+        }
+      ]
+    }
+  ]
+}

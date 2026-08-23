@@ -1,0 +1,188 @@
+{
+  "slug": "rise-of-the-bicycle-b55-002",
+  "title": "The Rise of the Bicycle",
+  "topic": "transport history",
+  "targetBand": 5.5,
+  "source": "authored",
+  "paragraphs": [
+    {
+      "letter": "A",
+      "text": "The earliest ancestor of the bicycle had no pedals at all. In 1817 a German forestry official named Karl von Drais built a wooden machine with two wheels in line, which the rider straddled and pushed along the ground with both feet. It became known in England as the hobby horse, and for a few years it was fashionable among wealthy young men in London and Paris. It was not, however, a practical form of transport. The rider had no way of applying power except by pushing, the wheels were rigid, and the roads of the period were rough enough to make any journey uncomfortable. Within a decade the fashion had passed, and the machine survived mainly as a curiosity in private collections."
+    },
+    {
+      "letter": "B",
+      "text": "The decisive change came in the 1860s, when French workshops began fitting pedals directly to the front wheel. This machine could be driven rather than pushed, and for the first time a rider could travel at speed on level ground. It was heavy, and because the pedals turned the wheel directly, one turn of the pedals produced exactly one turn of the wheel. Makers therefore made the front wheel larger and larger, since a bigger wheel covered more ground with each revolution. The result was the high-wheeler, whose rider sat more than a metre above the road. It was fast, and it was dangerous: a small obstacle could throw the rider head first over the handlebars, an accident so common that it acquired its own name."
+    },
+    {
+      "letter": "C",
+      "text": "The machine that finally displaced it appeared in 1885, when the English manufacturer John Kemp Starley produced what he called the safety bicycle. Its two wheels were the same modest size, the rider sat low between them, and power reached the rear wheel through a chain. Because the gearing no longer depended on the size of the wheel, the design could be both fast and stable. Three years later a Scottish veterinary surgeon, John Boyd Dunlop, added the pneumatic tyre, which absorbed the shock of rough surfaces and made long journeys tolerable. The essential form of the bicycle was now settled, and it has changed remarkably little since: a modern machine would be recognisable to a rider from 1890."
+    },
+    {
+      "letter": "D",
+      "text": "What followed was less a technical story than a social one. A bicycle cost far less than a horse and needed neither stabling nor feed, and by the 1890s it had come within reach of clerks, shop assistants and factory workers. For the first time a person of modest income could travel ten or fifteen miles for pleasure and return the same day. Historians of the period have noted a particular consequence in rural districts, where marriage records show partners being found progressively further from home as cycling spread. The bicycle also became entangled with arguments about women's clothing, since the long skirts then expected of women were impossible to ride in safely, and the divided garments adopted by cyclists were attacked in the press as improper."
+    },
+    {
+      "letter": "E",
+      "text": "The rise of the motor car interrupted this progress. Across most of Western Europe and North America, cycling declined steadily from the 1920s onwards, and by the 1960s it had come to be seen in many cities as transport for those who could afford nothing better. Road design reflected that judgement; junctions were rebuilt for the convenience of cars, and cyclists were left to negotiate them as best they could. The Netherlands is the usual exception cited, but even there cycling fell sharply after the war, and its recovery in the 1970s followed a sustained public campaign rather than any unbroken tradition."
+    },
+    {
+      "letter": "F",
+      "text": "City authorities have since reconsidered, largely for reasons of cost. A separated cycle lane carries several times as many people per hour as a traffic lane of the same width, and it can be built for a fraction of what an equivalent stretch of urban road costs. Public health economists have added a second argument, calculating that the reduction in heart disease and obesity among regular cyclists returns more to the public purse than the infrastructure consumes. Copenhagen, which now records more journeys by bicycle than by car in its central districts, is routinely presented as evidence that the shift can be achieved. Whether cities without its density and its flat terrain can repeat the result remains an open question."
+    }
+  ],
+  "groups": [
+    {
+      "type": "matching_headings",
+      "position": 1,
+      "heading": "Questions 1–6 · Matching Headings",
+      "instruction": "Choose the correct heading for each paragraph from the list below.",
+      "optionsTitle": "List of headings",
+      "options": [
+        { "value": "i", "label": "A design that has lasted" },
+        { "value": "ii", "label": "The economic case cities now make" },
+        { "value": "iii", "label": "A machine without pedals" },
+        { "value": "iv", "label": "Why the car pushed cycling aside" },
+        { "value": "v", "label": "Effects on ordinary lives" },
+        { "value": "vi", "label": "Faster, taller and more dangerous" },
+        { "value": "vii", "label": "How bicycles are manufactured today" },
+        { "value": "viii", "label": "Racing and the birth of the sport" }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Paragraph A",
+          "acceptedAnswers": ["iii"],
+          "skillIds": ["main_idea"],
+          "explanation": "The paragraph is about a machine that had to be pushed because it had no pedals. Heading vi is the trap for readers skimming for 'wheels' — but height and danger belong to paragraph B, not A.",
+          "evidenceParagraph": "A",
+          "evidence": "The earliest ancestor of the bicycle had no pedals at all."
+        },
+        {
+          "position": 2,
+          "prompt": "Paragraph B",
+          "acceptedAnswers": ["vi"],
+          "skillIds": ["main_idea", "paraphrasing"],
+          "explanation": "Three ideas run through the paragraph: pedals made it faster, the wheel grew taller, and falls became common. Heading vi captures all three; heading viii mentions speed but the paragraph never discusses racing as a sport.",
+          "evidenceParagraph": "B",
+          "evidence": "It was fast, and it was dangerous"
+        },
+        {
+          "position": 3,
+          "prompt": "Paragraph C",
+          "acceptedAnswers": ["i"],
+          "skillIds": ["main_idea", "inference"],
+          "explanation": "The paragraph ends by saying the form 'has changed remarkably little since'. That is the point of the paragraph, and it is what heading i states.",
+          "evidenceParagraph": "C",
+          "evidence": "a modern machine would be recognisable to a rider from 1890"
+        },
+        {
+          "position": 4,
+          "prompt": "Paragraph D",
+          "acceptedAnswers": ["v"],
+          "skillIds": ["main_idea"],
+          "explanation": "The paragraph opens by announcing that what follows is 'a social one' rather than a technical story, then gives three social effects: affordability, marriage patterns, and clothing.",
+          "evidenceParagraph": "D",
+          "evidence": "What followed was less a technical story than a social one."
+        },
+        {
+          "position": 5,
+          "prompt": "Paragraph E",
+          "acceptedAnswers": ["iv"],
+          "skillIds": ["main_idea"],
+          "explanation": "The whole paragraph explains the decline and attributes it to the motor car, including how road design followed.",
+          "evidenceParagraph": "E",
+          "evidence": "The rise of the motor car interrupted this progress."
+        },
+        {
+          "position": 6,
+          "prompt": "Paragraph F",
+          "acceptedAnswers": ["ii"],
+          "skillIds": ["main_idea", "paraphrasing"],
+          "explanation": "Every argument in the paragraph is a cost argument: lane capacity, construction cost, and health savings. The paragraph says so directly with 'largely for reasons of cost'.",
+          "evidenceParagraph": "F",
+          "evidence": "City authorities have since reconsidered, largely for reasons of cost."
+        }
+      ]
+    },
+    {
+      "type": "sentence_completion",
+      "position": 2,
+      "heading": "Questions 7–10 · Sentence Completion",
+      "instruction": "Complete each sentence with NO MORE THAN TWO WORDS from the passage.",
+      "maxWords": 2,
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "In England, the machine built by Karl von Drais was called the __________.",
+          "acceptedAnswers": ["hobby horse", "the hobby horse"],
+          "skillIds": ["scanning"],
+          "explanation": "Paragraph A: 'It became known in England as the hobby horse'.",
+          "evidenceParagraph": "A"
+        },
+        {
+          "position": 2,
+          "prompt": "French workshops of the 1860s attached __________ to the front wheel.",
+          "acceptedAnswers": ["pedals"],
+          "skillIds": ["scanning"],
+          "explanation": "Paragraph B: 'French workshops began fitting pedals directly to the front wheel'.",
+          "evidenceParagraph": "B"
+        },
+        {
+          "position": 3,
+          "prompt": "On the safety bicycle, power reached the rear wheel by means of a __________.",
+          "acceptedAnswers": ["chain"],
+          "skillIds": ["scanning"],
+          "explanation": "Paragraph C: 'power reached the rear wheel through a chain'.",
+          "evidenceParagraph": "C"
+        },
+        {
+          "position": 4,
+          "prompt": "Dunlop's __________ tyre made rough surfaces easier to ride on.",
+          "acceptedAnswers": ["pneumatic"],
+          "skillIds": ["scanning", "paraphrasing"],
+          "explanation": "Paragraph C: Dunlop 'added the pneumatic tyre, which absorbed the shock of rough surfaces'.",
+          "evidenceParagraph": "C"
+        }
+      ]
+    },
+    {
+      "type": "true_false_not_given",
+      "position": 3,
+      "heading": "Questions 11–13 · True / False / Not Given",
+      "instruction": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE or NOT GIVEN.",
+      "options": [
+        { "value": "TRUE", "label": "True" },
+        { "value": "FALSE", "label": "False" },
+        { "value": "NOT GIVEN", "label": "Not Given" }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Cycling in the Netherlands continued without interruption after the Second World War.",
+          "acceptedAnswers": ["FALSE"],
+          "skillIds": ["scanning", "inference"],
+          "explanation": "Paragraph E says that even there cycling 'fell sharply after the war' and recovered only in the 1970s. The passage contradicts the statement, so FALSE rather than NOT GIVEN.",
+          "evidenceParagraph": "E",
+          "evidence": "even there cycling fell sharply after the war"
+        },
+        {
+          "position": 2,
+          "prompt": "A separated cycle lane can move more people per hour than a car lane of equal width.",
+          "acceptedAnswers": ["TRUE"],
+          "skillIds": ["scanning", "paraphrasing"],
+          "explanation": "Paragraph F: a cycle lane 'carries several times as many people per hour as a traffic lane of the same width'.",
+          "evidenceParagraph": "F",
+          "evidence": "carries several times as many people per hour as a traffic lane of the same width"
+        },
+        {
+          "position": 3,
+          "prompt": "Copenhagen spent more on cycle lanes than any other European city.",
+          "acceptedAnswers": ["NOT GIVEN"],
+          "skillIds": ["inference"],
+          "explanation": "Copenhagen appears in paragraph F, but only for its share of journeys by bicycle. Spending is never compared between cities, so nothing in the passage confirms or denies this.",
+          "evidenceParagraph": "F"
+        }
+      ]
+    }
+  ]
+}

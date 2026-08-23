@@ -1,42 +1,5 @@
 [
   {
-    "slug": "practice-urban-streams",
-    "title": "Reading Practice · Bringing Back the Buried River",
-    "kind": "reading_passage",
-    "mode": "practice",
-    "durationMinutes": 20,
-    "targetBand": 6.5,
-    "passageSlugs": [
-      "urban-streams-b65-001"
-    ]
-  },
-  {
-    "slug": "drill-matching-headings-urban-streams",
-    "title": "Matching Headings Drill",
-    "kind": "skill_drill",
-    "mode": "practice",
-    "durationMinutes": 10,
-    "targetBand": 6.5,
-    "targetedSkillId": "main_idea",
-    "onlyTypes": [
-      "matching_headings"
-    ],
-    "passageSlugs": [
-      "urban-streams-b65-001"
-    ]
-  },
-  {
-    "slug": "mock-mini-urban-streams",
-    "title": "Academic Reading · Mini Mock",
-    "kind": "reading_passage",
-    "mode": "mock",
-    "durationMinutes": 20,
-    "targetBand": 6.5,
-    "passageSlugs": [
-      "urban-streams-b65-001"
-    ]
-  },
-  {
     "slug": "practice-epigenetics-beyond-the-dna-sequence-b8",
     "title": "Reading Practice · Epigenetics: Beyond the DNA Sequence",
     "kind": "reading_passage",
@@ -45,6 +8,17 @@
     "targetBand": 8,
     "passageSlugs": [
       "epigenetics-beyond-the-dna-sequence-b8"
+    ]
+  },
+  {
+    "slug": "practice-eyewitness-memory-b75-004",
+    "title": "Reading Practice · The Unreliable Witness",
+    "kind": "reading_passage",
+    "mode": "practice",
+    "durationMinutes": 20,
+    "targetBand": 7.5,
+    "passageSlugs": [
+      "eyewitness-memory-b75-004"
     ]
   },
   {
@@ -67,6 +41,28 @@
     "targetBand": 7,
     "passageSlugs": [
       "quantum-computing-and-the-future-of-cryptography-b7"
+    ]
+  },
+  {
+    "slug": "practice-rise-of-the-bicycle-b55-002",
+    "title": "Reading Practice · The Rise of the Bicycle",
+    "kind": "reading_passage",
+    "mode": "practice",
+    "durationMinutes": 20,
+    "targetBand": 5.5,
+    "passageSlugs": [
+      "rise-of-the-bicycle-b55-002"
+    ]
+  },
+  {
+    "slug": "practice-seed-banks-b60-003",
+    "title": "Reading Practice · Banking the World's Seeds",
+    "kind": "reading_passage",
+    "mode": "practice",
+    "durationMinutes": 20,
+    "targetBand": 6,
+    "passageSlugs": [
+      "seed-banks-b60-003"
     ]
   },
   {
@@ -208,6 +204,66 @@
     "mode": "practice",
     "durationMinutes": 20,
     "targetBand": 6.5,
+    "passageSlugs": [
+      "urban-streams-b65-001"
+    ]
+  },
+  {
+    "slug": "drill-headings-eyewitness-memory-b75-004",
+    "title": "Matching Headings Drill · The Unreliable Witness",
+    "kind": "skill_drill",
+    "mode": "practice",
+    "durationMinutes": 10,
+    "targetBand": 7.5,
+    "targetedSkillId": "main_idea",
+    "onlyTypes": [
+      "matching_headings"
+    ],
+    "passageSlugs": [
+      "eyewitness-memory-b75-004"
+    ]
+  },
+  {
+    "slug": "drill-headings-rise-of-the-bicycle-b55-002",
+    "title": "Matching Headings Drill · The Rise of the Bicycle",
+    "kind": "skill_drill",
+    "mode": "practice",
+    "durationMinutes": 10,
+    "targetBand": 5.5,
+    "targetedSkillId": "main_idea",
+    "onlyTypes": [
+      "matching_headings"
+    ],
+    "passageSlugs": [
+      "rise-of-the-bicycle-b55-002"
+    ]
+  },
+  {
+    "slug": "drill-headings-seed-banks-b60-003",
+    "title": "Matching Headings Drill · Banking the World's Seeds",
+    "kind": "skill_drill",
+    "mode": "practice",
+    "durationMinutes": 10,
+    "targetBand": 6,
+    "targetedSkillId": "main_idea",
+    "onlyTypes": [
+      "matching_headings"
+    ],
+    "passageSlugs": [
+      "seed-banks-b60-003"
+    ]
+  },
+  {
+    "slug": "drill-headings-urban-streams-b65-001",
+    "title": "Matching Headings Drill · Bringing Back the Buried River",
+    "kind": "skill_drill",
+    "mode": "practice",
+    "durationMinutes": 10,
+    "targetBand": 6.5,
+    "targetedSkillId": "main_idea",
+    "onlyTypes": [
+      "matching_headings"
+    ],
     "passageSlugs": [
       "urban-streams-b65-001"
     ]

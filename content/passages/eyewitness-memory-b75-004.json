@@ -1,0 +1,188 @@
+{
+  "slug": "eyewitness-memory-b75-004",
+  "title": "The Unreliable Witness",
+  "topic": "psychology of memory",
+  "targetBand": 7.5,
+  "source": "authored",
+  "paragraphs": [
+    {
+      "letter": "A",
+      "text": "Few forms of evidence carry the persuasive weight of a confident eyewitness. Jurors, presented with a witness who states without hesitation that the person in the dock is the person they saw, tend to convict, and they do so even when the surrounding circumstantial evidence is thin. This deference rests on an intuition about how memory works: that recollection is a species of retrieval, and that an event, once witnessed, is stored somewhere in a form that can later be recovered more or less intact. Nearly a century of experimental work has undermined that intuition without noticeably weakening its hold on the courtroom, and the gap between what psychologists regard as settled and what legal procedure assumes remains one of the more consequential disagreements between the two disciplines."
+    },
+    {
+      "letter": "B",
+      "text": "The experimental case turns on the demonstration that memory is reconstructive. In a series of studies from the 1970s onwards, participants shown a filmed traffic accident gave systematically different estimates of the vehicles' speed depending on the verb used to question them, and those asked with the more forceful wording were subsequently more likely to report having seen broken glass that had never appeared in the film. The interpretation that has survived replication is not that the witnesses were lying, nor even that they were guessing, but that the question had become part of the remembered event. Information encountered after the fact does not sit alongside the original memory as a separate item; it is absorbed into it, and the witness has no privileged means of telling the two apart."
+    },
+    {
+      "letter": "C",
+      "text": "This has an uncomfortable consequence for the confidence that so impresses juries. If a memory can be modified by subsequent information, then the feeling of certainty attaching to it can be modified too, and it can be strengthened by events that have nothing to do with accuracy. A witness told that they have identified the same person as another witness becomes markedly more confident, and remains so at trial, without any corresponding improvement in whether the identification was correct. Confidence measured immediately, before any feedback, does carry some information about accuracy; confidence measured months later, after interviews, statements and preparation, carries considerably less. The courtroom encounters the witness at precisely the point where confidence has become least informative."
+    },
+    {
+      "letter": "D",
+      "text": "Procedural reform has therefore concentrated less on assessing witnesses than on avoiding contamination in the first place. The recommendations that follow from the research are unglamorous and largely administrative: that the officer conducting an identification should not know which member of the line-up is the suspect, so that no unintentional cue can be given; that the witness should be told explicitly that the offender may not be present; that members of the line-up should resemble the description the witness originally gave, so the suspect does not stand out; and that a confidence statement should be recorded at the moment of identification and never revised. Jurisdictions that have adopted these measures report fewer identifications overall and a higher proportion of them corroborated by other evidence."
+    },
+    {
+      "letter": "E",
+      "text": "Resistance to reform has come from an unexpected direction. The objection is not that the findings are wrong but that they are being generalised beyond their setting: a participant watching a film in a laboratory is not a bystander to a violent crime, and it is at least arguable that the emotional intensity of a real event produces a more durable memory than any experiment can create. The evidence on this point is genuinely mixed. Studies of witnesses to actual crimes have sometimes found identification accuracy higher than the laboratory would predict, though they have also found the same susceptibility to leading questions, and the methodological difficulty of establishing ground truth outside the laboratory makes such studies hard to weigh."
+    },
+    {
+      "letter": "F",
+      "text": "What has changed the practical debate is not the resolution of that dispute but the accumulation of cases in which convictions resting on eyewitness identification were later overturned by DNA analysis. Those cases supply something no experiment can, namely a set of instances in which the correct answer is known independently and a confident witness was demonstrably wrong. They do not establish how often such errors occur, since the cases that reach re-examination are not a representative sample of anything. What they establish is that the error is not hypothetical, and that is sufficient to shift the question from whether witnesses can be mistaken to how procedure should be arranged on the assumption that some of them will be."
+    }
+  ],
+  "groups": [
+    {
+      "type": "matching_headings",
+      "position": 1,
+      "heading": "Questions 1–6 · Matching Headings",
+      "instruction": "Choose the correct heading for each paragraph from the list below.",
+      "optionsTitle": "List of headings",
+      "options": [
+        { "value": "i", "label": "Why certainty is a poor guide" },
+        { "value": "ii", "label": "A reasonable objection, and its own difficulties" },
+        { "value": "iii", "label": "The gap between the laboratory and the court" },
+        { "value": "iv", "label": "Memory as reconstruction, not retrieval" },
+        { "value": "v", "label": "Cases that settled the practical argument" },
+        { "value": "vi", "label": "Changing the procedure rather than judging the witness" },
+        { "value": "vii", "label": "How juries are selected" },
+        { "value": "viii", "label": "The history of forensic science" }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Paragraph A",
+          "acceptedAnswers": ["iii"],
+          "skillIds": ["main_idea", "inference"],
+          "explanation": "The paragraph ends by naming a disagreement between psychology and legal procedure — that is the gap the heading refers to. Heading vii is a keyword trap: juries are mentioned in the first sentence but their selection never is.",
+          "evidenceParagraph": "A",
+          "evidence": "the gap between what psychologists regard as settled and what legal procedure assumes"
+        },
+        {
+          "position": 2,
+          "prompt": "Paragraph B",
+          "acceptedAnswers": ["iv"],
+          "skillIds": ["main_idea", "paraphrasing"],
+          "explanation": "The paragraph states its thesis in the first sentence and spends the rest supporting it: later information is absorbed into the memory rather than stored separately.",
+          "evidenceParagraph": "B",
+          "evidence": "The experimental case turns on the demonstration that memory is reconstructive."
+        },
+        {
+          "position": 3,
+          "prompt": "Paragraph C",
+          "acceptedAnswers": ["i"],
+          "skillIds": ["main_idea", "inference"],
+          "explanation": "The argument is that confidence can rise without accuracy rising, so confidence is unreliable — most sharply at trial. That is what heading i states.",
+          "evidenceParagraph": "C",
+          "evidence": "The courtroom encounters the witness at precisely the point where confidence has become least informative."
+        },
+        {
+          "position": 4,
+          "prompt": "Paragraph D",
+          "acceptedAnswers": ["vi"],
+          "skillIds": ["main_idea"],
+          "explanation": "The opening sentence contrasts assessing witnesses with avoiding contamination, and the paragraph then lists procedural measures.",
+          "evidenceParagraph": "D",
+          "evidence": "concentrated less on assessing witnesses than on avoiding contamination in the first place"
+        },
+        {
+          "position": 5,
+          "prompt": "Paragraph E",
+          "acceptedAnswers": ["ii"],
+          "skillIds": ["main_idea", "inference"],
+          "explanation": "The paragraph presents the generalisation objection as legitimate, then notes the evidence is mixed and hard to weigh — an objection with its own difficulties.",
+          "evidenceParagraph": "E",
+          "evidence": "The evidence on this point is genuinely mixed."
+        },
+        {
+          "position": 6,
+          "prompt": "Paragraph F",
+          "acceptedAnswers": ["v"],
+          "skillIds": ["main_idea"],
+          "explanation": "Overturned convictions are what shifted the practical debate. Heading viii is the trap: DNA analysis appears, but the paragraph is about the effect of particular cases, not the history of a discipline.",
+          "evidenceParagraph": "F",
+          "evidence": "the accumulation of cases in which convictions resting on eyewitness identification were later overturned"
+        }
+      ]
+    },
+    {
+      "type": "summary_completion",
+      "position": 2,
+      "heading": "Questions 7–10 · Summary Completion",
+      "instruction": "Complete the summary with NO MORE THAN TWO WORDS from the passage for each answer.",
+      "maxWords": 2,
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Participants questioned with more forceful wording later reported seeing broken __________ that was absent from the film.",
+          "acceptedAnswers": ["glass"],
+          "skillIds": ["scanning"],
+          "explanation": "Paragraph B: 'more likely to report having seen broken glass that had never appeared in the film'.",
+          "evidenceParagraph": "B"
+        },
+        {
+          "position": 2,
+          "prompt": "A witness told that another witness chose the same person becomes more __________.",
+          "acceptedAnswers": ["confident"],
+          "skillIds": ["scanning", "paraphrasing"],
+          "explanation": "Paragraph C: such a witness 'becomes markedly more confident, and remains so at trial'.",
+          "evidenceParagraph": "C"
+        },
+        {
+          "position": 3,
+          "prompt": "The officer running an identification should not know which person is the __________.",
+          "acceptedAnswers": ["suspect"],
+          "skillIds": ["scanning"],
+          "explanation": "Paragraph D: the officer 'should not know which member of the line-up is the suspect'.",
+          "evidenceParagraph": "D"
+        },
+        {
+          "position": 4,
+          "prompt": "Outside the laboratory it is methodologically hard to establish __________.",
+          "acceptedAnswers": ["ground truth"],
+          "skillIds": ["scanning", "paraphrasing"],
+          "explanation": "Paragraph E: 'the methodological difficulty of establishing ground truth outside the laboratory'.",
+          "evidenceParagraph": "E"
+        }
+      ]
+    },
+    {
+      "type": "yes_no_not_given",
+      "position": 3,
+      "heading": "Questions 11–13 · Yes / No / Not Given",
+      "instruction": "Do the following statements agree with the claims of the writer? Write YES, NO or NOT GIVEN.",
+      "options": [
+        { "value": "YES", "label": "Yes" },
+        { "value": "NO", "label": "No" },
+        { "value": "NOT GIVEN", "label": "Not Given" }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "The overturned convictions show how frequently eyewitness errors occur.",
+          "acceptedAnswers": ["NO"],
+          "skillIds": ["inference", "main_idea"],
+          "explanation": "Paragraph F says the opposite: those cases 'do not establish how often such errors occur' because they are not a representative sample. The writer rejects the claim, so NO rather than NOT GIVEN.",
+          "evidenceParagraph": "F",
+          "evidence": "They do not establish how often such errors occur"
+        },
+        {
+          "position": 2,
+          "prompt": "Confidence recorded at the moment of identification tells us more than confidence recorded later.",
+          "acceptedAnswers": ["YES"],
+          "skillIds": ["paraphrasing", "inference"],
+          "explanation": "Paragraph C states that immediate confidence 'does carry some information about accuracy' while later confidence 'carries considerably less'.",
+          "evidenceParagraph": "C",
+          "evidence": "confidence measured months later, after interviews, statements and preparation, carries considerably less"
+        },
+        {
+          "position": 3,
+          "prompt": "Witnesses who give inaccurate identifications are usually aware that they may be wrong.",
+          "acceptedAnswers": ["NOT GIVEN"],
+          "skillIds": ["inference"],
+          "explanation": "The passage says a witness cannot distinguish original memory from later information, but it never discusses whether inaccurate witnesses suspect their own error. No claim is made either way.",
+          "evidenceParagraph": "B"
+        }
+      ]
+    }
+  ]
+}
