@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "technology-complexity",
+    "task": 2,
+    "kind": "discussion",
+    "label": "Task 2 · Discussion essay",
+    "prompt": "Some people believe that technology has made our lives too complex, while others argue it has simplified daily life.",
+    "instruction": "Discuss both views and give your own opinion.",
+    "minWords": 250,
+    "recommendedMinutes": 40,
+    "targetBand": 6.5,
+    "source": "authored"
+  },
+  {
+    "slug": "remote-work",
+    "task": 2,
+    "kind": "advantages_disadvantages",
+    "label": "Task 2 · Advantages and disadvantages",
+    "prompt": "An increasing number of people now work from home rather than travelling to an office.",
+    "instruction": "What are the advantages and disadvantages of this development?",
+    "minWords": 250,
+    "recommendedMinutes": 40,
+    "targetBand": 6.5,
+    "source": "authored"
+  },
+  {
+    "slug": "city-congestion",
+    "task": 2,
+    "kind": "problem_solution",
+    "label": "Task 2 · Problem and solution",
+    "prompt": "Traffic congestion is becoming a serious problem in many large cities.",
+    "instruction": "What are the causes of this problem, and what measures could be taken to solve it?",
+    "minWords": 250,
+    "recommendedMinutes": 40,
+    "targetBand": 7.0,
+    "source": "authored"
+  },
+  {
+    "slug": "museums-free-entry",
+    "task": 2,
+    "kind": "opinion",
+    "label": "Task 2 · Opinion essay",
+    "prompt": "Some people think that national museums and art galleries should be free for everyone to enter.",
+    "instruction": "To what extent do you agree or disagree?",
+    "minWords": 250,
+    "recommendedMinutes": 40,
+    "targetBand": 7.0,
+    "source": "authored"
+  },
+  {
+    "slug": "renewable-share-chart",
+    "task": 1,
+    "kind": "chart_description",
+    "label": "Task 1 · Chart description",
+    "prompt": "The chart below shows the proportion of electricity generated from renewable sources in four countries between 2000 and 2024.",
+    "instruction": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "minWords": 150,
+    "recommendedMinutes": 20,
+    "targetBand": 6.5,
+    "source": "authored"
+  }
+]

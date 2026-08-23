@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "practice-urban-streams",
+    "title": "Reading Practice · Bringing Back the Buried River",
+    "kind": "reading_passage",
+    "mode": "practice",
+    "durationMinutes": 20,
+    "targetBand": 6.5,
+    "passageSlugs": ["urban-streams-b65-001"]
+  },
+  {
+    "slug": "drill-matching-headings-urban-streams",
+    "title": "Matching Headings Drill",
+    "kind": "skill_drill",
+    "mode": "practice",
+    "durationMinutes": 10,
+    "targetBand": 6.5,
+    "targetedSkillId": "main_idea",
+    "onlyTypes": ["matching_headings"],
+    "passageSlugs": ["urban-streams-b65-001"]
+  },
+  {
+    "slug": "mock-mini-urban-streams",
+    "title": "Academic Reading · Mini Mock",
+    "kind": "reading_passage",
+    "mode": "mock",
+    "durationMinutes": 20,
+    "targetBand": 6.5,
+    "passageSlugs": ["urban-streams-b65-001"]
+  }
+]

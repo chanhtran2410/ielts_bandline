@@ -1,0 +1,188 @@
+{
+  "slug": "urban-streams-b65-001",
+  "title": "Bringing Back the Buried River",
+  "topic": "urban ecology",
+  "targetBand": 6.5,
+  "source": "authored",
+  "paragraphs": [
+    {
+      "letter": "A",
+      "text": "Beneath almost every large city runs a river that residents have never seen. As settlements expanded through the nineteenth and twentieth centuries, the streams that had originally determined where those settlements stood were progressively enclosed in brick and concrete culverts and built over. London has more than twenty such watercourses; Tokyo, Melbourne and Toronto each have dozens. The process was rarely recorded as a loss. Municipal engineers of the period described it as improvement, and by the standards they were judged against, it was: a covered stream no longer flooded basements, no longer carried the smell of sewage through residential districts, and no longer occupied land that could be sold for housing. Within two generations the rivers had passed out of public memory altogether, surviving only in the names of streets that cross them."
+    },
+    {
+      "letter": "B",
+      "text": "The reasoning behind burial was principally sanitary. Before the arrival of separated sewer networks, urban streams served as open drains, and the connection between contaminated water and epidemic disease was becoming impossible to ignore. Enclosure was the fastest available remedy. It also solved a problem of space. A meandering stream with a floodplain consumes a wide corridor of land, whereas a culvert consumes almost none, and the surface above it can carry a road or a terrace of houses. In cities where land values were rising steeply, that arithmetic was decisive. Engineers were not indifferent to the rivers so much as confident that the rivers had been superseded, and the assumption embedded in their designs was that water arriving in a city should be removed from it as rapidly as possible."
+    },
+    {
+      "letter": "C",
+      "text": "That assumption proved expensive. A culvert is sized for the flows recorded when it was built, and as the catchment above it was paved, those flows increased. Rain that would once have soaked into soil now runs off impervious surfaces within minutes, arriving as a sharp peak rather than a gradual rise. The result is that many nineteenth-century culverts are now substantially undersized, and because they are buried beneath dense development they are extraordinarily difficult to enlarge. Flooding has not been eliminated; it has been relocated and concentrated. Cities have also discovered what was lost alongside the visible water. Open watercourses moderate summer temperatures, support species that cannot survive elsewhere in a built environment, and provide the kind of green corridor that residents consistently rank among the most valued features of a neighbourhood."
+    },
+    {
+      "letter": "D",
+      "text": "Since the 1990s a number of cities have begun reversing the process. The technique, known as daylighting, involves removing the culvert and reconstructing a channel at the surface, usually with a widened floodplain designed to hold water during storms rather than rush it downstream. The best-known example is the Cheonggyecheon in central Seoul, where an elevated expressway was demolished and a stream restored along a corridor of roughly eleven kilometres. Monitoring afterwards recorded summer air temperatures along the corridor several degrees below those of comparable streets nearby, together with a marked increase in the number of bird and fish species present. Smaller schemes in Zurich, Yonkers and Sheffield have reported similar results at a fraction of the scale, and the approach has moved from novelty to standard option in a little over two decades."
+    },
+    {
+      "letter": "E",
+      "text": "Daylighting is nonetheless constrained by circumstances that no amount of enthusiasm can alter. A buried stream often lies directly beneath a major road, a rail line or a row of buildings, and in such cases the corridor simply cannot be reopened without demolition that no authority would contemplate. Contaminated ground is a second obstacle, since industrial districts frequently deposited waste along their watercourses, and excavating that material can cost more than the restoration itself. The Seoul project consumed a budget of several hundred million dollars, a figure that few municipalities could justify. Practitioners therefore increasingly favour partial measures: reopening short reaches where land happens to be available, or leaving the culvert intact while treating the surface above it so that rainfall infiltrates instead of running straight into the pipe."
+    },
+    {
+      "letter": "F",
+      "text": "What has changed most is not the engineering but the accounting. A buried culvert appears in municipal records as an asset requiring maintenance, and on that basis a restored stream will always look like an added expense. Where cities have begun to price the services an open watercourse performs — the stormwater it detains, the cooling it supplies, the property values it lifts along its banks — the comparison reverses, and restoration begins to read as an investment with a measurable return. Whether that framework becomes the standard one is now a question of institutional habit rather than evidence. The rivers, in the meantime, continue to flow where they were put, waiting on a decision that each generation of planners has so far preferred to leave to the next."
+    }
+  ],
+  "groups": [
+    {
+      "type": "matching_headings",
+      "position": 1,
+      "heading": "Questions 1–6 · Matching Headings",
+      "instruction": "Choose the correct heading for each paragraph from the list below.",
+      "optionsTitle": "List of headings",
+      "options": [
+        { "value": "i", "label": "Why the decision now turns on how value is measured" },
+        { "value": "ii", "label": "Practical limits on reopening a buried channel" },
+        { "value": "iii", "label": "The hidden rivers beneath modern cities" },
+        { "value": "iv", "label": "Restoring streams to the surface" },
+        { "value": "v", "label": "Health and land as motives for enclosure" },
+        { "value": "vi", "label": "Consequences that emerged later" },
+        { "value": "vii", "label": "How street names preserve lost geography" },
+        { "value": "viii", "label": "Comparing sewer designs across continents" }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Paragraph A",
+          "acceptedAnswers": ["iii"],
+          "skillIds": ["main_idea"],
+          "explanation": "The paragraph establishes that buried rivers exist under most large cities and gives examples. Heading vii is the trap: street names are mentioned, but only in the final clause, and they are not what the paragraph is about.",
+          "evidenceParagraph": "A",
+          "evidence": "Beneath almost every large city runs a river that residents have never seen."
+        },
+        {
+          "position": 2,
+          "prompt": "Paragraph B",
+          "acceptedAnswers": ["v"],
+          "skillIds": ["main_idea", "paraphrasing"],
+          "explanation": "Two motives structure the paragraph: sanitation and the value of land. Heading viii repeats the idea of sewers but the paragraph makes no comparison between countries.",
+          "evidenceParagraph": "B",
+          "evidence": "The reasoning behind burial was principally sanitary. ... It also solved a problem of space."
+        },
+        {
+          "position": 3,
+          "prompt": "Paragraph C",
+          "acceptedAnswers": ["vi"],
+          "skillIds": ["main_idea"],
+          "explanation": "The paragraph opens by saying the assumption 'proved expensive' and then lists what went wrong afterwards — undersized culverts, relocated flooding, lost habitat.",
+          "evidenceParagraph": "C",
+          "evidence": "That assumption proved expensive."
+        },
+        {
+          "position": 4,
+          "prompt": "Paragraph D",
+          "acceptedAnswers": ["iv"],
+          "skillIds": ["main_idea"],
+          "explanation": "Daylighting is defined here and illustrated with Seoul and three smaller schemes. This is the paragraph about putting streams back at the surface.",
+          "evidenceParagraph": "D",
+          "evidence": "The technique, known as daylighting, involves removing the culvert and reconstructing a channel at the surface"
+        },
+        {
+          "position": 5,
+          "prompt": "Paragraph E",
+          "acceptedAnswers": ["ii"],
+          "skillIds": ["main_idea", "paraphrasing"],
+          "explanation": "Every sentence names an obstacle: buildings above the corridor, contaminated ground, and cost. 'Constrained by circumstances' signals the paragraph's function.",
+          "evidenceParagraph": "E",
+          "evidence": "Daylighting is nonetheless constrained by circumstances that no amount of enthusiasm can alter."
+        },
+        {
+          "position": 6,
+          "prompt": "Paragraph F",
+          "acceptedAnswers": ["i"],
+          "skillIds": ["main_idea", "inference"],
+          "explanation": "The paragraph contrasts two ways of accounting for a culvert and concludes the choice is now institutional rather than evidential — a question of how value is measured.",
+          "evidenceParagraph": "F",
+          "evidence": "What has changed most is not the engineering but the accounting."
+        }
+      ]
+    },
+    {
+      "type": "summary_completion",
+      "position": 2,
+      "heading": "Questions 7–10 · Summary Completion",
+      "instruction": "Complete the summary below with NO MORE THAN TWO WORDS from the passage for each answer.",
+      "maxWords": 2,
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "City streams were enclosed in brick and concrete __________ and then built over.",
+          "acceptedAnswers": ["culverts"],
+          "skillIds": ["scanning"],
+          "explanation": "Paragraph A: 'progressively enclosed in brick and concrete culverts and built over'.",
+          "evidenceParagraph": "A"
+        },
+        {
+          "position": 2,
+          "prompt": "Rain now reaches the drain quickly because it runs off __________ surfaces.",
+          "acceptedAnswers": ["impervious"],
+          "skillIds": ["scanning", "paraphrasing"],
+          "explanation": "Paragraph C: 'runs off impervious surfaces within minutes'.",
+          "evidenceParagraph": "C"
+        },
+        {
+          "position": 3,
+          "prompt": "After the Seoul restoration, observers recorded more bird and fish __________ along the corridor.",
+          "acceptedAnswers": ["species"],
+          "skillIds": ["scanning"],
+          "explanation": "Paragraph D: 'a marked increase in the number of bird and fish species present'.",
+          "evidenceParagraph": "D"
+        },
+        {
+          "position": 4,
+          "prompt": "One alternative is to treat the surface so that rainfall __________ rather than entering the pipe.",
+          "acceptedAnswers": ["infiltrates"],
+          "skillIds": ["paraphrasing", "inference"],
+          "explanation": "Paragraph E: 'treating the surface above it so that rainfall infiltrates instead of running straight into the pipe'.",
+          "evidenceParagraph": "E"
+        }
+      ]
+    },
+    {
+      "type": "true_false_not_given",
+      "position": 3,
+      "heading": "Questions 11–13 · True / False / Not Given",
+      "instruction": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE or NOT GIVEN.",
+      "options": [
+        { "value": "TRUE", "label": "True" },
+        { "value": "FALSE", "label": "False" },
+        { "value": "NOT GIVEN", "label": "Not Given" }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Burying urban streams removed the risk of flooding from cities.",
+          "acceptedAnswers": ["FALSE"],
+          "skillIds": ["scanning", "paraphrasing"],
+          "explanation": "Paragraph C states flooding 'has not been eliminated; it has been relocated and concentrated' — a direct contradiction, so FALSE rather than NOT GIVEN.",
+          "evidenceParagraph": "C",
+          "evidence": "Flooding has not been eliminated; it has been relocated and concentrated."
+        },
+        {
+          "position": 2,
+          "prompt": "The Cheonggyecheon project cost more than any other daylighting scheme attempted since.",
+          "acceptedAnswers": ["NOT GIVEN"],
+          "skillIds": ["inference", "scanning"],
+          "explanation": "Paragraph E gives Seoul's budget as several hundred million dollars, but never compares it with the cost of other schemes. With no comparison in the text, the answer is NOT GIVEN.",
+          "evidenceParagraph": "E"
+        },
+        {
+          "position": 3,
+          "prompt": "Some cities now reopen only short sections of a buried stream.",
+          "acceptedAnswers": ["TRUE"],
+          "skillIds": ["scanning", "paraphrasing"],
+          "explanation": "Paragraph E: practitioners favour 'reopening short reaches where land happens to be available'.",
+          "evidenceParagraph": "E",
+          "evidence": "reopening short reaches where land happens to be available"
+        }
+      ]
+    }
+  ]
+}
