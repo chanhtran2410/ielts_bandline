@@ -221,15 +221,28 @@ export function useAttempt({ attemptId, testId, mode, resultHref }: UseAttemptOp
     setFocusedQuestionId(questionId);
   }, []);
 
-  /** Scrolls to a question and focuses it, for navigator clicks. */
+  /**
+   * Scrolls to a question and focuses it, for navigator clicks.
+   *
+   * `block: 'nearest'` keeps the scroll inside the questions pane: 'center'
+   * asks every scrollable ancestor to reposition, and the exam shell is
+   * `overflow-hidden`, so the browser shifts the whole clipped layout instead.
+   * Focusing with `preventScroll` stops a second, competing scroll.
+   */
   const goToQuestion = useCallback(
     (questionId: string) => {
       const question = questions.find((q) => q.id === questionId);
       setFocusedQuestionId(questionId);
       if (!question) return;
-      const node = document.getElementById('question-' + question.number);
-      node?.scrollIntoView({ block: 'center', behavior: 'smooth' });
-      node?.querySelector<HTMLElement>('input, select, button')?.focus();
+
+      // Deferred a frame: on narrow viewports the caller may have just revealed
+      // the questions pane, and a hidden element cannot be scrolled to.
+      requestAnimationFrame(() => {
+        const node = document.getElementById('question-' + question.number);
+        if (!node || node.offsetParent === null) return;
+        node.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        node.querySelector<HTMLElement>('input, select, button')?.focus({ preventScroll: true });
+      });
     },
     [questions],
   );

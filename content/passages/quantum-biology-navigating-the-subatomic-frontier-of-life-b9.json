@@ -4,6 +4,9 @@
   "topic": "imported",
   "targetBand": 9,
   "source": "licensed",
+  "attribution": "LuchoBazz / ielts-ai-dataset",
+  "license": "CC-BY-4.0",
+  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset",
   "paragraphs": [
     {
       "letter": "A",
@@ -34,7 +37,7 @@
     {
       "type": "yes_no_not_given",
       "position": 1,
-      "heading": "Questions · yes no not given",
+      "heading": "Yes / No / Not Given",
       "instruction": "Do the following statements agree with the claims of the writer? Write YES, NO, or NOT GIVEN.",
       "options": [
         {
@@ -126,7 +129,7 @@
     {
       "type": "matching_features",
       "position": 2,
-      "heading": "Questions · matching sentence endings",
+      "heading": "Matching Features",
       "instruction": "Complete each sentence with the correct ending, A–F, from the box below.",
       "optionsTitle": "List of options",
       "options": [
@@ -206,8 +209,5 @@
         }
       ]
     }
-  ],
-  "attribution": "LuchoBazz / ielts-ai-dataset",
-  "license": "CC-BY-4.0",
-  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset"
+  ]
 }

@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { useRouter } from 'next/navigation';
 import { track } from '@/lib/analytics';
@@ -51,6 +51,17 @@ export function WritingEditorScreen({ submissionId }: { submissionId: string }) 
   const task = taskQuery.data;
   const text = body ?? submission?.body ?? '';
   const wordCount = useMemo(() => countWords(text), [text]);
+
+  const essayRef = useRef<HTMLTextAreaElement>(null);
+
+  // Match the textarea's height to its content so it never scrolls internally.
+  // Runs on every text change, including the initial adoption of a saved draft.
+  useEffect(() => {
+    const node = essayRef.current;
+    if (!node) return;
+    node.style.height = 'auto';
+    node.style.height = node.scrollHeight + 'px';
+  }, [text]);
 
   const timer = useTimer({
     durationSeconds: minutesToSeconds(task?.recommendedMinutes ?? null),
@@ -172,12 +183,20 @@ export function WritingEditorScreen({ submissionId }: { submissionId: string }) 
                 Your essay
               </label>
               <textarea
+                ref={essayRef}
                 id="essay"
                 value={text}
                 onChange={(event) => setBody(event.target.value)}
                 spellCheck
                 placeholder="Start your introduction here…"
-                className="min-h-[60vh] w-full resize-none border-0 bg-transparent p-0 text-[16.5px] leading-[1.85] text-ink placeholder:text-faint focus:outline-none"
+                /*
+                 * Grows to fit its content (see the effect below), so the only
+                 * scroll container is the pane around it. A fixed-height
+                 * textarea inside a scrolling parent gives two nested
+                 * scrollbars that fight each other and drag the caret
+                 * off-screen mid-sentence.
+                 */
+                className="min-h-[60vh] w-full resize-none overflow-hidden border-0 bg-transparent p-0 text-[16.5px] leading-[1.85] text-ink placeholder:text-faint focus:outline-none"
               />
             </div>
           </div>

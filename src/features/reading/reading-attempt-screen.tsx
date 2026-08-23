@@ -185,7 +185,13 @@ export function ReadingAttemptScreen({
       <QuestionNavigator
         entries={attempt.navigatorEntries}
         activeQuestionId={attempt.activeQuestionId}
-        onSelect={attempt.goToQuestion}
+        onSelect={(questionId) => {
+          // The navigator sits under both panes, so on a narrow viewport it can
+          // be tapped while the passage is showing. Reveal the questions first,
+          // or the jump silently does nothing.
+          setPane('questions');
+          attempt.goToQuestion(questionId);
+        }}
         caption={attempt.answeredTotal + ' of ' + total + ' answered'}
       />
 

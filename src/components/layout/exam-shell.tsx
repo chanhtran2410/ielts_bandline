@@ -8,7 +8,16 @@ import { Icon } from '@/components/ui/icon';
  * the learner away mid-attempt.
  */
 export function ExamShell({ children }: { children: React.ReactNode }) {
-  return <div className="flex h-dvh flex-col overflow-hidden">{children}</div>;
+  return (
+    /*
+     * Pinned to the viewport rather than merely sized to it. `h-dvh` inside
+     * normal flow still lets the document grow — measured at 1487px of stray
+     * page scroll — which means the whole exam drifts under a fixed top bar
+     * while the learner is trying to scroll a pane. Taking the shell out of
+     * flow makes the panes the only scrollers, which is the intended behaviour.
+     */
+    <div className="fixed inset-0 flex flex-col overflow-hidden">{children}</div>
+  );
 }
 
 export interface ExamTopBarProps {

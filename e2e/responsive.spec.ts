@@ -132,8 +132,9 @@ test.describe('accessibility basics (§21)', () => {
     const questionsTab = page.getByRole('tab', { name: /questions/i });
     if (await questionsTab.isVisible()) await questionsTab.click();
 
-    // The pool select is a real form control, so it takes keyboard input.
-    const first = page.getByLabel(/Answer for question 14/);
+    // Question 1: assembled tests are renumbered from 1, so a drill or a
+    // reordered paper never opens partway through someone else’s numbering.
+    const first = page.getByLabel(/Answer for question 1:/);
     await first.selectOption('iii');
     await expect(first).toHaveValue('iii');
     await expect(page.getByText(/1 of 13 answered/)).toBeVisible();

@@ -62,12 +62,12 @@ export function QuestionRenderer(props: QuestionRendererProps) {
       </div>
 
       <div className={cn('min-w-0', inline ? 'flex-1' : '')}>
-        <p
-          className={cn(
-            'text-[13.5px] font-medium leading-relaxed',
-            inline ? 'truncate' : 'mb-3',
-          )}
-        >
+        {/*
+          Never truncated. A question stem is the question — clipping it with an
+          ellipsis makes the item unanswerable. Long stems get the stacked
+          layout instead, where they have the full width to wrap into.
+        */}
+        <p className={cn('text-[13.5px] font-medium leading-relaxed', inline ? undefined : 'mb-3')}>
           {question.prompt}
           {flagged ? (
             <Icon name="flag-filled" size={12} className="ml-2 inline-block text-accent" title="Flagged" />
@@ -105,12 +105,16 @@ export function QuestionRenderer(props: QuestionRendererProps) {
  */
 function defaultLayoutFor(group: QuestionGroup): 'inline' | 'stacked' {
   switch (group.type) {
-    case 'multiple_choice':
-    case 'true_false_not_given':
-    case 'yes_no_not_given':
-      return 'stacked';
-    default:
+    // Matching types have a short stem — "Paragraph C", "a named city" — so the
+    // stem and its pool select fit on one row.
+    case 'matching_headings':
+    case 'matching_information':
+    case 'matching_features':
       return 'inline';
+    // Everything else carries a full sentence: an option list to compare, or a
+    // stem with a gap in it. Those need the whole row width to read.
+    default:
+      return 'stacked';
   }
 }
 
@@ -266,7 +270,9 @@ function FreeTextAnswer({
   const over = maxWords !== undefined && countWords(value) > maxWords;
 
   return (
-    <div className="flex min-w-0 shrink-0 flex-col items-end gap-1 sm:w-52">
+    // Left-aligned: completion questions are always stacked now, so the input
+    // sits under its stem rather than being pushed to the right of it.
+    <div className="flex min-w-0 flex-col items-start gap-1 sm:max-w-sm">
       <input
         type="text"
         value={value}

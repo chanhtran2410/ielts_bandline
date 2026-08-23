@@ -108,4 +108,10 @@ export interface AttemptWeakness {
   /** Explains the *habit* behind the errors, not just the count. */
   diagnosis: string;
   accuracy: number;
+  /**
+   * Where "practice this skill" goes. Chosen by the service from the weakness
+   * actually measured — the screen must not guess, or it ends up sending every
+   * learner to the same unrelated drill.
+   */
+  practiceHref: string;
 }

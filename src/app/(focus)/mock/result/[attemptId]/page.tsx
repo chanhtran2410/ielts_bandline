@@ -14,7 +14,6 @@ export default async function MockResultPage({
       attemptId={attemptId}
       backHref="/mock"
       backLabel="Back to mock tests"
-      practiceHref="/practice/session/test_drill_headings"
     />
   );
 }

@@ -4,6 +4,9 @@
   "topic": "imported",
   "targetBand": 8,
   "source": "licensed",
+  "attribution": "LuchoBazz / ielts-ai-dataset",
+  "license": "CC-BY-4.0",
+  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset",
   "paragraphs": [
     {
       "letter": "A",
@@ -38,7 +41,7 @@
     {
       "type": "matching_headings",
       "position": 1,
-      "heading": "Questions · matching headings",
+      "heading": "Matching Headings",
       "instruction": "The reading passage has seven paragraphs, A–G. Choose the correct heading for paragraphs B through G from the list of headings below.",
       "optionsTitle": "List of options",
       "options": [
@@ -153,7 +156,7 @@
     {
       "type": "matching_information",
       "position": 2,
-      "heading": "Questions · matching information",
+      "heading": "Matching Information",
       "instruction": "Which paragraph contains the following information? Write the correct letter, A–G.",
       "optionsTitle": "List of options",
       "options": [
@@ -240,7 +243,7 @@
     {
       "type": "multiple_choice",
       "position": 3,
-      "heading": "Questions · multiple choice",
+      "heading": "Multiple Choice",
       "instruction": "Choose the correct letter, A, B, C or D.",
       "options": [
         {
@@ -383,8 +386,5 @@
         }
       ]
     }
-  ],
-  "attribution": "LuchoBazz / ielts-ai-dataset",
-  "license": "CC-BY-4.0",
-  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset"
+  ]
 }

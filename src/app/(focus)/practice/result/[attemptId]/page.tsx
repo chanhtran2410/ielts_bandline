@@ -14,7 +14,6 @@ export default async function PracticeResultPage({
       attemptId={attemptId}
       backHref="/dashboard"
       backLabel="Back to dashboard"
-      practiceHref="/practice/session/test_drill_headings"
     />
   );
 }

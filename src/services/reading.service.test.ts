@@ -243,3 +243,104 @@ describe('test fixtures', () => {
     }
   });
 });
+
+describe('regressions', () => {
+  it('numbers a drill from 1, not from its parent paper (looked like another test)', async () => {
+    // test_drill_headings is TREES_GROUPS filtered to one group, whose fixture
+    // numbers are 14-18. A standalone drill must not open at question 14.
+    const drill = await readingService.getTest('test_drill_headings');
+    const numbers = allQuestions(drill.groups).map((q) => q.number);
+
+    expect(numbers[0]).toBe(1);
+    expect(numbers).toEqual([1, 2, 3, 4, 5]);
+  });
+
+  it('numbers every assembled test contiguously from 1', async () => {
+    for (const id of ['test_practice_sleep', 'test_practice_trees', 'test_mock_full']) {
+      const test = await readingService.getTest(id);
+      const numbers = allQuestions(test.groups).map((q) => q.number);
+      expect(numbers, id).toEqual(numbers.map((_, i) => i + 1));
+    }
+  });
+
+  it('points "practice this skill" at a test that contains the weak type', async () => {
+    const test = await readingService.getTest('test_practice_sleep');
+    const attempt = await readingService.startAttempt({
+      testId: 'test_practice_sleep',
+      mode: 'practice',
+    });
+    const questions = allQuestions(test.groups);
+
+    // Get everything right except True/False/Not Given.
+    const answers: Record<string, string | null> = {};
+    for (const q of questions) {
+      answers[q.id] = q.type === 'true_false_not_given' ? 'wrong' : (q.acceptedAnswers[0] ?? null);
+    }
+
+    const result = await readingService.submitAttempt(attempt.id, {
+      attemptId: attempt.id,
+      answers,
+      flagged: [],
+      highlights: [],
+      notes: [],
+      elapsedSeconds: 60,
+      updatedAt: new Date().toISOString(),
+    });
+
+    const href = result.weakness?.practiceHref;
+    expect(href).toBeDefined();
+    // Must not be a fixed unrelated drill, and must not re-serve the same test.
+    expect(href).not.toBe('/practice/session/test_practice_sleep');
+
+    if (href !== '/practice') {
+      const suggestedId = href!.replace('/practice/session/', '');
+      const suggested = await readingService.getTest(suggestedId);
+      expect(
+        suggested.groups.some((g) => g.type === result.weakness?.skillId),
+        'suggested test must actually contain ' + result.weakness?.skillId,
+      ).toBe(true);
+    }
+  });
+});
+
+describe('group headings agree with the numbers beneath them', () => {
+  /** "Questions 6–9 · Summary Completion" -> [6, 9] */
+  function rangeFromHeading(heading: string): [number, number] | null {
+    const m = /^Questions?\s+(\d+)\s*(?:[–—-]\s*(\d+))?/u.exec(heading);
+    if (!m?.[1]) return null;
+    const first = Number(m[1]);
+    return [first, m[2] ? Number(m[2]) : first];
+  }
+
+  it.each([
+    'test_drill_headings',
+    'test_practice_trees',
+    'test_practice_sleep',
+    'test_practice_language',
+    'test_mock_full',
+    'test_mock_mini',
+    'test_mock_skill',
+    'test_diagnostic',
+  ])('%s prints the real range in every group heading', async (testId) => {
+    const test = await readingService.getTest(testId);
+
+    for (const group of test.groups) {
+      const numbers = group.questions.map((q) => q.number);
+      const first = Math.min(...numbers);
+      const last = Math.max(...numbers);
+      const printed = rangeFromHeading(group.heading);
+
+      expect(printed, `"${group.heading}" states no range`).not.toBeNull();
+      expect(printed, `"${group.heading}" contradicts questions ${first}-${last}`).toEqual([
+        first,
+        last,
+      ]);
+    }
+  });
+
+  it('renumbers a filtered drill heading down from its parent range', async () => {
+    // The fixture heading says "Questions 14–18"; the drill has 5 questions.
+    const drill = await readingService.getTest('test_drill_headings');
+    expect(drill.groups[0]?.heading).toMatch(/^Questions 1–5\b/);
+  });
+});

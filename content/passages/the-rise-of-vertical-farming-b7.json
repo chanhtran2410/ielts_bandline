@@ -4,6 +4,9 @@
   "topic": "imported",
   "targetBand": 7,
   "source": "licensed",
+  "attribution": "LuchoBazz / ielts-ai-dataset",
+  "license": "CC-BY-4.0",
+  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset",
   "paragraphs": [
     {
       "letter": "A",
@@ -30,7 +33,7 @@
     {
       "type": "true_false_not_given",
       "position": 1,
-      "heading": "Questions · true false not given",
+      "heading": "True / False / Not Given",
       "instruction": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE, or NOT GIVEN.",
       "options": [
         {
@@ -108,7 +111,7 @@
     {
       "type": "short_answer",
       "position": 2,
-      "heading": "Questions · short answer",
+      "heading": "Short Answer",
       "instruction": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
       "maxWords": 3,
       "questions": [
@@ -172,8 +175,5 @@
         }
       ]
     }
-  ],
-  "attribution": "LuchoBazz / ielts-ai-dataset",
-  "license": "CC-BY-4.0",
-  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset"
+  ]
 }

@@ -17,14 +17,12 @@ export interface AttemptResultScreenProps {
   /** Practice and mock results differ only in where they link back to. */
   backHref: string;
   backLabel: string;
-  practiceHref: string;
 }
 
 export function AttemptResultScreen({
   attemptId,
   backHref,
   backLabel,
-  practiceHref,
 }: AttemptResultScreenProps) {
   const query = useQuery({
     queryKey: queryKeys.attemptResult(attemptId),
@@ -115,7 +113,7 @@ export function AttemptResultScreen({
               {result.weakness ? (
                 <ResultWeaknessCard
                   weakness={result.weakness}
-                  practiceHref={practiceHref}
+                  practiceHref={result.weakness.practiceHref}
                   mistakesHref="/mistakes"
                 />
               ) : null}

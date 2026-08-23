@@ -47,6 +47,23 @@ const TYPE_MAP: Record<string, Question extends never ? never : string> = {
   'short-answer': 'short_answer',
 };
 
+/** Printed in the group heading, so it has to read like a real exam paper. */
+const TYPE_LABELS: Record<string, string> = {
+  multiple_choice: 'Multiple Choice',
+  true_false_not_given: 'True / False / Not Given',
+  yes_no_not_given: 'Yes / No / Not Given',
+  matching_headings: 'Matching Headings',
+  matching_information: 'Matching Information',
+  matching_features: 'Matching Features',
+  sentence_completion: 'Sentence Completion',
+  summary_completion: 'Summary Completion',
+  note_completion: 'Note Completion',
+  table_completion: 'Table Completion',
+  flow_chart_completion: 'Flow Chart Completion',
+  diagram_label: 'Diagram Labelling',
+  short_answer: 'Short Answer',
+};
+
 const VERBATIM = new Set([
   'sentence_completion',
   'summary_completion',
@@ -327,7 +344,9 @@ function convertGroup(
   const group: QuestionGroup = {
     type: type as QuestionGroup['type'],
     position,
-    heading: `Questions · ${source.question_type.replace(/-/g, ' ')}`,
+    // The range is filled in at assembly time (heading_with_range), because it
+    // depends on how this passage is combined with others.
+    heading: TYPE_LABELS[type] ?? source.question_type.replace(/-/g, ' '),
     instruction: source.instructions.trim(),
     questions,
     ...(groupOptions ? { options: groupOptions } : {}),
@@ -387,6 +406,11 @@ function main(): void {
         topic: 'imported',
         targetBand: band,
         source: 'licensed',
+        // Attached before validation, not after: the schema refuses licensed
+        // content without a credit, which is the point of the check.
+        attribution: ATTRIBUTION,
+        license: LICENSE,
+        sourceUrl: SOURCE_URL,
         paragraphs,
         groups,
       };
@@ -403,11 +427,7 @@ function main(): void {
       missingExplanations += groups.flatMap((g) => g.questions).length;
       writeFileSync(
         join(OUT_DIR, parsed.data.slug + '.json'),
-        JSON.stringify(
-          { ...parsed.data, attribution: ATTRIBUTION, license: LICENSE, sourceUrl: SOURCE_URL },
-          null,
-          2,
-        ) + '\n',
+        JSON.stringify(parsed.data, null, 2) + '\n',
       );
       written += 1;
       console.log(`  ✓ ${parsed.data.slug}  band ${band.toFixed(1)}  ${words}w  ${groups.length} groups`);

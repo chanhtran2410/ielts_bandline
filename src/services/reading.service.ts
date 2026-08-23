@@ -31,6 +31,49 @@ export interface ReadingService {
   getResult(attemptId: string): Promise<AttemptResult>;
 }
 
+/**
+ * Renumbers a test's questions 1..n in group order.
+ *
+ * Fixtures carry the number a question has on the paper it was written for, so
+ * a drill built by filtering one group out of a 40-question test would otherwise
+ * open at question 14. That reads as somebody else's paper. The database path
+ * (reading_test_for_mode) numbers on assembly for the same reason; this keeps
+ * the mock service behaving identically.
+ */
+function withPaperNumbers(test: Test): Test {
+  let n = 0;
+  return {
+    ...test,
+    groups: test.groups.map((group) => {
+      const first = n + 1;
+      const questions = group.questions.map((question) => {
+        n += 1;
+        return { ...question, number: n };
+      });
+      return { ...group, heading: retitle(group.heading, first, n), questions };
+    }),
+  };
+}
+
+/**
+ * Rewrites the question range printed in a group heading to match the numbers
+ * actually assigned.
+ *
+ * Fixture headings carry the range from the paper they were written for
+ * ("Questions 14–18"). Renumbering without touching them leaves the heading
+ * contradicting the questions under it, which reads as a different test
+ * entirely — the worst kind of bug, because nothing looks broken.
+ */
+function retitle(heading: string, first: number, last: number): string {
+  const range = first === last ? 'Question ' + first : 'Questions ' + first + '–' + last;
+  const withRange = heading.replace(/^Questions?\s+\d+\s*(?:[–—-]\s*\d+)?/u, range);
+  // Headings that never carried a range are left alone, but still get one, so
+  // the learner can always see which questions a group covers.
+  return withRange === heading && !/^Questions?\s+\d/u.test(heading)
+    ? range + ' · ' + heading.replace(/^Questions?\s*·\s*/u, '')
+    : withRange;
+}
+
 const attempts = new Map<string, Attempt>();
 const drafts = new Map<string, AttemptDraft>();
 const results = new Map<string, AttemptResult>();
@@ -57,11 +100,32 @@ const WEAKNESS_DIAGNOSES: Record<string, string> = {
     'You are exceeding the word limit. Answers over the stated maximum score zero even when the meaning is right.',
 };
 
+/**
+ * Finds practice that actually targets the weak question type.
+ *
+ * Prefers a dedicated drill, then any practice test containing the type, and
+ * only falls back to the catalogue when the library has nothing. Returning a
+ * fixed drill regardless of the weakness is what made every result point at
+ * the same unrelated test.
+ */
+function practiceHrefForType(type: string, excludeTestId: string): string {
+  const candidates = ALL_TESTS.filter(
+    (t) =>
+      t.mode === 'practice' &&
+      t.id !== excludeTestId &&
+      t.groups.some((g) => g.type === type),
+  );
+  const drill = candidates.find((t) => t.kind === 'skill_drill');
+  const chosen = drill ?? candidates[0];
+  return chosen ? '/practice/session/' + chosen.id : '/practice';
+}
+
 function diagnoseWeakness(
   type: string,
   label: string,
   wrong: number,
   total: number,
+  testId: string,
 ): AttemptWeakness {
   return {
     title: label,
@@ -74,6 +138,7 @@ function diagnoseWeakness(
         total +
         ' marks on this type. Review the explanations to find the pattern behind them.',
     accuracy: accuracy(total - wrong, total),
+    practiceHref: practiceHrefForType(type, testId),
   };
 }
 
@@ -99,7 +164,7 @@ const mockReadingService: ReadingService = {
   async getTest(testId) {
     const test = findTest(testId);
     if (!test) throw new ServiceError('We could not find that test.', { retryable: false });
-    return delay(clone(test));
+    return delay(withPaperNumbers(clone(test)));
   },
 
   async startAttempt({ testId, mode }) {
@@ -210,6 +275,7 @@ const mockReadingService: ReadingService = {
               weakestType.label,
               weakestType.total - weakestType.correct,
               weakestType.total,
+              test.id,
             )
           : null,
       responses: graded.map((g) => ({
