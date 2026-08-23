@@ -1,0 +1,172 @@
+{
+  "slug": "the-development-of-the-london-underground-b7",
+  "title": "The Development of the London Underground",
+  "topic": "imported",
+  "targetBand": 7,
+  "source": "licensed",
+  "paragraphs": [
+    {
+      "letter": "A",
+      "text": "By the mid-19th century, London was experiencing unprecedented demographic growth, making it the largest city in the world. This rapid expansion brought immense wealth, but it also resulted in severe traffic congestion. The streets were choked with horse-drawn omnibuses, carts, and pedestrians, leading to near-paralysis of the city’s transport network. Charles Pearson, a visionary City of London solicitor, recognized that a radical solution was necessary. In 1845, he proposed the construction of an underground railway to link the mainline railway termini and clear the slums. Though initially met with skepticism and mocked by the press, Pearson’s relentless campaigning eventually secured parliamentary approval and the necessary funding from private investors."
+    },
+    {
+      "letter": "B",
+      "text": "The first underground line, the Metropolitan Railway, opened in January 1863. It was a marvel of Victorian engineering, built using a technique known as \"cut-and-cover.\" This involved digging a massive trench along the route of existing streets, constructing brick walls and a vaulted roof, and then restoring the road surface above. While effective, the cut-and-cover method caused immense disruption. Hundreds of buildings were demolished, and local businesses suffered heavily during the construction phase. Despite these challenges, the railway was an instant success, carrying 38,000 passengers on its opening day in wooden carriages pulled by steam locomotives."
+    },
+    {
+      "letter": "C",
+      "text": "The use of steam engines underground, however, created significant environmental problems. Despite the installation of ventilation shafts, the tunnels were constantly filled with dense, sulfurous smoke, which blackened the stations and occasionally caused passengers to choke. It was clear that a new approach was needed. The solution arrived in the 1890s with the invention of the Greathead tunneling shield by engineer James Henry Greathead. This cylindrical steel shield allowed workers to excavate deep underground without disturbing the surface, paving the way for the \"deep-level tube\" lines."
+    },
+    {
+      "letter": "D",
+      "text": "These new tube lines were smaller in diameter and naturally suited to electric traction, which eliminated the smoke problem entirely. The City and South London Railway, opening in 1890, was the first deep-level, electrically operated railway in the world. However, the early tube network was chaotic, operated by several competing private companies. It wasn’t until the early 1900s that American financier Charles Yerkes managed to unify most of the separate lines under a single corporate umbrella, the Underground Electric Railways Company of London (UERL). Yerkes orchestrated the electrification of the older steam lines and funded the rapid expansion of the tube network into the growing suburbs."
+    },
+    {
+      "letter": "E",
+      "text": "During the Second World War, the London Underground took on an entirely new and unexpected role. As the Blitz devastated the capital, hundreds of thousands of Londoners sought refuge from aerial bombardment by sleeping on the platforms and tracks of the deep-level stations. The government, initially opposed to the idea due to fears of disease and panic, eventually formalized the arrangement, providing bunk beds, chemical toilets, and even library services underground."
+    },
+    {
+      "letter": "F",
+      "text": "Today, the London Underground remains a vital artery of the city, handling over a billion passenger journeys annually. While modern infrastructure projects like the Elizabeth line have transformed travel times across the capital, the foundational engineering of Pearson, Greathead, and Yerkes continues to underpin one of the most famous transit systems in the world."
+    }
+  ],
+  "groups": [
+    {
+      "type": "true_false_not_given",
+      "position": 1,
+      "heading": "Questions · true false not given",
+      "instruction": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE, or NOT GIVEN.",
+      "options": [
+        {
+          "value": "TRUE",
+          "label": "True"
+        },
+        {
+          "value": "FALSE",
+          "label": "False"
+        },
+        {
+          "value": "NOT GIVEN",
+          "label": "Not Given"
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Charles Pearson personally provided all the funding for the Metropolitan Railway.",
+          "acceptedAnswers": [
+            "FALSE",
+            "False",
+            "false"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "The cut-and-cover construction method severely disrupted street-level businesses.",
+          "acceptedAnswers": [
+            "TRUE",
+            "True",
+            "true"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "The first deep-level tube line was financially successful in its opening year.",
+          "acceptedAnswers": [
+            "NOT GIVEN",
+            "Not Given",
+            "not given"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "The British government immediately encouraged citizens to use the Underground as air-raid shelters.",
+          "acceptedAnswers": [
+            "FALSE",
+            "False",
+            "false"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "type": "short_answer",
+      "position": 2,
+      "heading": "Questions · short answer",
+      "instruction": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "maxWords": 3,
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "What source of power was used for the locomotives on the opening day in 1863?",
+          "acceptedAnswers": [
+            "steam",
+            "steam engines"
+          ],
+          "skillIds": [
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "What was installed in the early tunnels in an attempt to alleviate the smoke problem?",
+          "acceptedAnswers": [
+            "ventilation shafts"
+          ],
+          "skillIds": [
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "What primary alternative function did underground stations serve during the Blitz?",
+          "acceptedAnswers": [
+            "air-raid shelters",
+            "refuge"
+          ],
+          "skillIds": [
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "Which contemporary infrastructure project has notably transformed travel times in London?",
+          "acceptedAnswers": [
+            "Elizabeth line",
+            "the Elizabeth line"
+          ],
+          "skillIds": [
+            "scanning"
+          ],
+          "explanation": ""
+        }
+      ]
+    }
+  ],
+  "attribution": "LuchoBazz / ielts-ai-dataset",
+  "license": "CC-BY-4.0",
+  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset"
+}

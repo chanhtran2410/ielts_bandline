@@ -1,0 +1,213 @@
+{
+  "slug": "quantum-computing-and-the-future-of-cryptography-b7",
+  "title": "Quantum Computing and the Future of Cryptography",
+  "topic": "imported",
+  "targetBand": 7,
+  "source": "licensed",
+  "paragraphs": [
+    {
+      "letter": "A",
+      "text": "The digital security infrastructure that currently underpins the modern world—from secure online banking and encrypted messaging to classified government communications—relies almost entirely on classical computing paradigms. Classical computers process information using binary bits, representing data as either a 0 or a 1. However, the rapidly advancing field of quantum computing threatens to entirely upend this established digital order. Quantum computers operate on the mind-bending principles of quantum mechanics, utilizing quantum bits, or \"qubits,\" which possess capabilities that make traditional microprocessors look little more than advanced abacuses."
+    },
+    {
+      "letter": "B",
+      "text": "The extraordinary power of quantum computers stems from two primary quantum phenomena: superposition and entanglement. While a classical bit must be strictly a 0 or a 1, a qubit in a state of superposition can exist as both a 0 and a 1 simultaneously. This allows quantum systems to evaluate an immense number of potential outcomes concurrently, rather than sequentially. Furthermore, through quantum entanglement, qubits become intricately linked; the state of one instantly influences the state of another, regardless of the physical distance separating them. Together, these properties grant quantum computers exponential processing power for specific types of complex calculations."
+    },
+    {
+      "letter": "C",
+      "text": "To understand the existential threat this poses, one must examine how current encryption works. The most widely used cryptographic standard today is the RSA algorithm. RSA security relies completely on the immense mathematical difficulty of factoring incredibly large prime numbers. For a classical supercomputer, calculating the prime factors of a 2048-bit number would theoretically take millions of years. Therefore, classical cryptography assumes that brute-force decryption is practically impossible within a human timeframe. Our data is considered \"secure\" merely because the math takes too long for current machines to solve."
+    },
+    {
+      "letter": "D",
+      "text": "Enter Peter Shor. In 1994, the American mathematician developed Shor’s algorithm, a theoretical quantum algorithm designed specifically for integer factorization. Shor proved that a sufficiently powerful quantum computer could execute this algorithm to find the prime factors of large numbers not in millions of years, but in mere hours or minutes. The moment a fully functional, fault-tolerant quantum computer is built, RSA and similar encryption models instantly become obsolete. Every piece of encrypted data—past, present, and future—could be theoretically exposed and decrypted almost instantly."
+    },
+    {
+      "letter": "E",
+      "text": "Recognizing this looming \"quantum apocalypse,\" global cybersecurity agencies and cryptographers are aggressively racing to develop \"post-quantum cryptography\" (PQC). The goal is to design entirely new cryptographic algorithms that run on classical computers but rely on mathematical problems so profoundly complex that even a quantum computer cannot easily solve them. The most promising candidates are lattice-based models. These algorithms hide data within multidimensional geometric grids; finding the shortest path between points in a lattice with hundreds of dimensions appears to be a problem that inherently resists even quantum processing speed."
+    },
+    {
+      "letter": "F",
+      "text": "The transition to post-quantum cryptography is an urgent race against time. The phenomenon known as \"Harvest Now, Decrypt Later\" reveals that malicious actors are already actively stealing and stockpiling massive amounts of encrypted data today. They intend to hold onto this data until quantum technology matures enough to decrypt it. Therefore, achieving quantum supremacy—the point where a quantum computer definitively outperforms the best classical supercomputer on a specific task—is not just an academic milestone; it is a global national security imperative driving rapid, unprecedented innovation."
+    }
+  ],
+  "groups": [
+    {
+      "type": "yes_no_not_given",
+      "position": 1,
+      "heading": "Questions · yes no not given",
+      "instruction": "Do the following statements agree with the claims of the writer? Write YES, NO, or NOT GIVEN.",
+      "options": [
+        {
+          "value": "YES",
+          "label": "Yes"
+        },
+        {
+          "value": "NO",
+          "label": "No"
+        },
+        {
+          "value": "NOT GIVEN",
+          "label": "Not Given"
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Qubits are capable of existing in multiple states simultaneously.",
+          "acceptedAnswers": [
+            "YES",
+            "Yes",
+            "yes"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "The RSA algorithm is easily broken by modern classical supercomputers.",
+          "acceptedAnswers": [
+            "NO",
+            "No",
+            "no"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "Shor's algorithm has already been successfully used to hack major banking systems.",
+          "acceptedAnswers": [
+            "NOT GIVEN",
+            "Not Given",
+            "not given"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "Lattice-based cryptography is proven to be completely immune to all future technological advancements.",
+          "acceptedAnswers": [
+            "NO",
+            "No",
+            "no"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 5,
+          "prompt": "Researchers are actively working on developing algorithms resistant to quantum computers.",
+          "acceptedAnswers": [
+            "YES",
+            "Yes",
+            "yes"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "type": "matching_features",
+      "position": 2,
+      "heading": "Questions · matching sentence endings",
+      "instruction": "Complete each sentence with the correct ending, A–F, from the box below.",
+      "optionsTitle": "List of options",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. the difficulty of factoring large prime numbers."
+        },
+        {
+          "value": "B",
+          "label": "B. develop systems secure against quantum attacks."
+        },
+        {
+          "value": "C",
+          "label": "C. using binary bits that represent either a 0 or a 1."
+        },
+        {
+          "value": "D",
+          "label": "D. stockpiling encrypted data for future use."
+        },
+        {
+          "value": "E",
+          "label": "E. existing in multiple physical locations simultaneously."
+        },
+        {
+          "value": "F",
+          "label": "F. solve complex factorization problems exponentially faster."
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Classical computers process information",
+          "acceptedAnswers": [
+            "C"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "The security of the RSA algorithm relies heavily on",
+          "acceptedAnswers": [
+            "A"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "Shor's algorithm poses a massive security threat because it can",
+          "acceptedAnswers": [
+            "F"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "The primary goal of post-quantum cryptography is to",
+          "acceptedAnswers": [
+            "B"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        }
+      ]
+    }
+  ],
+  "attribution": "LuchoBazz / ielts-ai-dataset",
+  "license": "CC-BY-4.0",
+  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset"
+}

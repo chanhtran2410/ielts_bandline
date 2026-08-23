@@ -1,0 +1,179 @@
+{
+  "slug": "the-mechanics-of-ancient-astronomy-the-antikythera-mechanism-b8",
+  "title": "The Mechanics of Ancient Astronomy: The Antikythera Mechanism",
+  "topic": "imported",
+  "targetBand": 8,
+  "source": "licensed",
+  "paragraphs": [
+    {
+      "letter": "A",
+      "text": "In 1901, a group of Greek sponge divers sheltering from a severe storm off the coast of the island of Antikythera inadvertently discovered a sprawling Roman shipwreck. Resting at a depth of 45 metres, the wreck yielded a treasure trove of magnificent bronze and marble statues, exquisite glassware, and ancient silver coins. Among these spectacular artistic treasures was a heavily corroded, unassuming lump of bronze and wood. Initially ignored by marine archaeologists in favour of the more aesthetically pleasing artefacts, the calcified block sat undisturbed in the National Archaeological Museum in Athens. It was not until 1902 that archaeologist Valerios Stais, while examining the crumbling artefact, noticed a small, precisely cut gear wheel embedded in the rock, revealing it to be a highly sophisticated mechanical device rather than a mere statue fragment."
+    },
+    {
+      "letter": "B",
+      "text": "For decades, the artefact completely baffled historians and classicists alike. Its sheer mechanical complexity seemed entirely anachronistic for its estimated construction date of the 2nd century BC. At the time, conventional historical narratives dictated that while the ancient Greeks were exceptionally adept at theoretical mathematics and geometry, they lacked the practical metallurgical and engineering skills required to create such a precise machine. The intricate gear trains within the Antikythera Mechanism rivalled the complexity of 18th-century European clocks. This staggering disparity led some early researchers to mistakenly assume it was a modern astrolabe that had been accidentally dropped into the ancient wreck centuries later."
+    },
+    {
+      "letter": "C",
+      "text": "The true function and origin of the mechanism were slowly unveiled through successive technological advancements in the late 20th and early 21st centuries. In the 1970s, British science historian Derek de Solla Price used early 2D X-ray imaging to count the gear teeth, proposing it was an astronomical computer designed to calculate celestial positions. Later, in 2005, the Antikythera Mechanism Research Project (AMRP) employed cutting-edge microfocus X-ray computed tomography to peer inside the remaining fragments without causing physical damage. They revealed a sophisticated, hand-powered orrery capable of tracking the Metonic cycle (the 19-year lunar calendar), charting the movements of the five classical planets, and accurately predicting lunar and solar eclipses using the 223-month Saros cycle."
+    },
+    {
+      "letter": "D",
+      "text": "The specific creator of the device remains entirely unknown, though many prominent scholars theorise it may have been constructed by, or under the guidance of, the eminent ancient Greek astronomer Hipparchus. This hypothesis is supported by the machine's mechanical incorporation of Hipparchus's theory regarding the moon's elliptical orbit, which explained its variable speed across the sky. Tragically, the trajectory of this mechanical genius was abruptly cut short. The expanding Roman conquest of the Mediterranean, which culminated in the systematic looting of Greek city-states, fundamentally shifted the regional cultural focus from scientific inquiry and philosophy to imperial administration, military engineering, and warfare. The ship carrying the mechanism was, in all likelihood, a Roman vessel transporting looted Greek treasures back to Rome when it sank."
+    },
+    {
+      "letter": "E",
+      "text": "The Antikythera Mechanism fundamentally rewrites the history of technology. It proves unequivocally that ancient engineers possessed a profound, applied understanding of kinematics, capable of translating highly complex astronomical cycles into miniature bronze gears. Following the eventual collapse of the Greco-Roman world, this astonishing level of mechanical sophistication disappeared entirely from the historical record, only re-emerging during the European Renaissance over a millennium later. It stands as a profound testament to a lost technological revolution, leaving modern historians to wonder what other mechanical marvels the ancient world might have produced had its intellectual trajectory not been severed."
+    }
+  ],
+  "groups": [
+    {
+      "type": "true_false_not_given",
+      "position": 1,
+      "heading": "Questions · true false not given",
+      "instruction": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE, or NOT GIVEN.",
+      "options": [
+        {
+          "value": "TRUE",
+          "label": "True"
+        },
+        {
+          "value": "FALSE",
+          "label": "False"
+        },
+        {
+          "value": "NOT GIVEN",
+          "label": "Not Given"
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "The sponge divers immediately recognised the scientific significance of the bronze mechanism in 1901.",
+          "acceptedAnswers": [
+            "FALSE",
+            "False",
+            "false"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "Early historians believed the ancient Greeks were incapable of producing such precise metallurgical engineering.",
+          "acceptedAnswers": [
+            "TRUE",
+            "True",
+            "true"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "Derek de Solla Price built a fully functioning physical replica of the device to prove his theories.",
+          "acceptedAnswers": [
+            "NOT GIVEN",
+            "Not Given",
+            "not given"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "The device incorporated mathematical theories regarding the variable speed of the moon.",
+          "acceptedAnswers": [
+            "TRUE",
+            "True",
+            "true"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "type": "short_answer",
+      "position": 2,
+      "heading": "Questions · short answer",
+      "instruction": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "maxWords": 3,
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "What specific celestial cycle did the mechanism utilise to predict eclipses?",
+          "acceptedAnswers": [
+            "Saros cycle",
+            "the Saros cycle"
+          ],
+          "skillIds": [
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "Which eminent Greek astronomer is most commonly theorised to be the device's creator?",
+          "acceptedAnswers": [
+            "Hipparchus"
+          ],
+          "skillIds": [
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "What was the primary material the device was originally manufactured from?",
+          "acceptedAnswers": [
+            "bronze"
+          ],
+          "skillIds": [
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "During which later historical period did comparable mechanical complexity finally reappear in Europe?",
+          "acceptedAnswers": [
+            "European Renaissance",
+            "the European Renaissance"
+          ],
+          "skillIds": [
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 5,
+          "prompt": "What type of ancient vessel was likely transporting the mechanism when it sank?",
+          "acceptedAnswers": [
+            "Roman vessel",
+            "a Roman vessel"
+          ],
+          "skillIds": [
+            "scanning"
+          ],
+          "explanation": ""
+        }
+      ]
+    }
+  ],
+  "attribution": "LuchoBazz / ielts-ai-dataset",
+  "license": "CC-BY-4.0",
+  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset"
+}

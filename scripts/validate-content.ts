@@ -21,11 +21,23 @@ import { countWords, normalizeAnswer } from './content-lib';
 const CONTENT_DIR = join(process.cwd(), 'content');
 const PASSAGE_DIR = join(CONTENT_DIR, 'passages');
 
-/** Academic Reading passages run roughly 700–950 words each. */
-const MIN_PASSAGE_WORDS = 650;
+/**
+ * Academic Reading passages run roughly 700–950 words. Below the target is a
+ * warning, not a failure: a short passage is still usable for a skill drill,
+ * and blocking it would mean rejecting otherwise sound imported material. Below
+ * the floor there is not enough text to support 13 questions honestly.
+ */
+const TARGET_PASSAGE_WORDS = 650;
+const MIN_PASSAGE_WORDS = 380;
 const MAX_PASSAGE_WORDS = 1000;
-/** A full paper is 40 questions over 3 passages, so ~13 each. */
-const MIN_QUESTIONS = 11;
+/**
+ * A full paper is 40 questions over 3 passages, so ~13 each. Fewer than that is
+ * a drill rather than a passage set — legitimate, but it cannot be used to make
+ * up a full mock, so it is flagged rather than rejected. Below the floor there
+ * are too few marks for a band estimate to mean anything.
+ */
+const TARGET_QUESTIONS = 11;
+const MIN_QUESTIONS = 6;
 const MAX_QUESTIONS = 16;
 
 interface Problem {
@@ -50,7 +62,13 @@ function checkPassage(file: string, passage: Passage): Problem[] {
   const haystack = normalizeAnswer(full);
 
   if (words < MIN_PASSAGE_WORDS) {
-    add('passage', `only ${words} words — Academic Reading needs ${MIN_PASSAGE_WORDS}+`);
+    add('passage', `only ${words} words — too short to support a question set`);
+  } else if (words < TARGET_PASSAGE_WORDS) {
+    add(
+      'passage',
+      `${words} words, under the ${TARGET_PASSAGE_WORDS} target — usable as a drill, not as exam-faithful timing`,
+      'warn',
+    );
   } else if (words > MAX_PASSAGE_WORDS) {
     add('passage', `${words} words is longer than a real passage`, 'warn');
   }
@@ -62,8 +80,25 @@ function checkPassage(file: string, passage: Passage): Problem[] {
   });
 
   const allQuestions = passage.groups.flatMap((g) => g.questions);
-  if (allQuestions.length < MIN_QUESTIONS || allQuestions.length > MAX_QUESTIONS) {
-    add('questions', `${allQuestions.length} questions — expected ${MIN_QUESTIONS}–${MAX_QUESTIONS}`);
+  if (allQuestions.length < MIN_QUESTIONS) {
+    add('questions', `only ${allQuestions.length} questions — too few to estimate a band`);
+  } else if (allQuestions.length < TARGET_QUESTIONS) {
+    add(
+      'questions',
+      `${allQuestions.length} questions — drill-sized, cannot stand in for a full passage set`,
+      'warn',
+    );
+  } else if (allQuestions.length > MAX_QUESTIONS) {
+    add('questions', `${allQuestions.length} questions is more than a real passage carries`, 'warn');
+  }
+
+  const unexplained = allQuestions.filter((q) => q.explanation === '').length;
+  if (unexplained > 0) {
+    add(
+      'questions',
+      `${unexplained}/${allQuestions.length} have no explanation — imported answer key without reasoning`,
+      'warn',
+    );
   }
 
   for (const group of passage.groups) {
@@ -104,26 +139,37 @@ function checkPassage(file: string, passage: Passage): Problem[] {
         add(qAt, 'has a blank accepted answer, which would mark an empty response correct');
       }
 
-      // Choice answers must exist in the pool the learner can actually pick from.
+      // Choice answers must exist in the pool the learner can actually pick
+      // from. Compared case-insensitively, because that is how the app grades
+      // choices — a source that lists TRUE/True/true is documenting that case
+      // does not matter, not making three different claims.
       if ((isPool || group.type === 'multiple_choice') && values.size > 0) {
+        const pool = new Set([...values].map((v) => v.trim().toLowerCase()));
         for (const answer of q.acceptedAnswers) {
-          if (!values.has(answer)) {
+          if (!pool.has(answer.trim().toLowerCase())) {
             add(qAt, `answer "${answer}" is not among the options [${[...values].join(', ')}]`);
           }
         }
       }
 
-      if (group.type === 'true_false_not_given') {
-        for (const a of q.acceptedAnswers) {
-          if (!['TRUE', 'FALSE', 'NOT GIVEN'].includes(a)) {
-            add(qAt, `"${a}" is not TRUE / FALSE / NOT GIVEN`);
-          }
+      // Only the canonical answer is checked against the fixed vocabulary; the
+      // rest may be case or punctuation variants of it.
+      const fixedVocabulary =
+        group.type === 'true_false_not_given'
+          ? ['true', 'false', 'not given']
+          : group.type === 'yes_no_not_given'
+            ? ['yes', 'no', 'not given']
+            : null;
+
+      if (fixedVocabulary) {
+        const canonical = q.acceptedAnswers[0]?.trim().toLowerCase();
+        if (!canonical || !fixedVocabulary.includes(canonical)) {
+          add(qAt, `canonical answer "${q.acceptedAnswers[0]}" is not one of ${fixedVocabulary.join(' / ')}`);
         }
-      }
-      if (group.type === 'yes_no_not_given') {
-        for (const a of q.acceptedAnswers) {
-          if (!['YES', 'NO', 'NOT GIVEN'].includes(a)) {
-            add(qAt, `"${a}" is not YES / NO / NOT GIVEN`);
+        // A variant that is not merely a re-casing is a genuine contradiction.
+        for (const a of q.acceptedAnswers.slice(1)) {
+          if (!fixedVocabulary.includes(a.trim().toLowerCase())) {
+            add(qAt, `alternative answer "${a}" is not one of ${fixedVocabulary.join(' / ')}`);
           }
         }
       }

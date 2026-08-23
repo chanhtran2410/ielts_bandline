@@ -1,0 +1,382 @@
+{
+  "slug": "the-economics-of-attention-in-the-digital-anthropocene-b9",
+  "title": "The Economics of Attention in the Digital Anthropocene",
+  "topic": "imported",
+  "targetBand": 9,
+  "source": "licensed",
+  "paragraphs": [
+    {
+      "letter": "A",
+      "text": "In the contemporary epoch, frequently colloquially termed the 'Digital Anthropocene', human attention has been systematically transmuted from a cognitive faculty into a highly fungible macroeconomic commodity. The genesis of the \"attention economy\"—a paradigm initially postulated by polymath Herbert A. Simon in 1971—posits that an overabundance of information inexorably engenders a scarcity of attention. Today, this theoretical framework has been operationalised by ubiquitous algorithmic architectures designed to extract, quantify, and monetise human cognitive engagement with unprecedented granular precision."
+    },
+    {
+      "letter": "B",
+      "text": "The fundamental friction in this economy arises from a profound biological bottleneck. While global data generation expands at an exponential velocity, the neurobiological capacity of the human brain to process sensory input remains strictly bounded by evolutionary constraints. We possess roughly 86 billion neurons, capable of processing only a finite bandwidth of stimuli before cognitive overload triggers profound executive dysfunction. Silicon Valley conglomerates actively exploit this asymmetry, deploying sophisticated interface designs that bypass higher-order rational deliberation, appealing directly to the primitive dopaminergic pathways of the basal ganglia."
+    },
+    {
+      "letter": "C",
+      "text": "Chief among these exploitative mechanisms is the 'variable ratio schedule' of reinforcement, a psychological principle imported directly from B.F. Skinner's mid-20th-century operant conditioning paradigms. Features such as the 'infinite scroll' or the unpredictable delivery of social validation notifications transform digital platforms into veritable psychological slot machines. Because the reward (a compelling piece of news, a humorous image, a social \"like\") is delivered at entirely randomized intervals, the user is locked into a compulsive loop of continuous checking, effectively surrendering their volitional autonomy to the architectural dictates of the application."
+    },
+    {
+      "letter": "D",
+      "text": "The macroeconomic implications of this shift have been delineated by Harvard sociologist Shoshana Zuboff under the nomenclature of \"surveillance capitalism.\" In this paradigm, digital conglomerates do not merely sell targeted advertising; they aggregate vast oceans of behavioral data to construct predictive models of future human action. These \"behavioral futures\" are traded in opaque secondary markets, rendering the human experience itself the raw material for algorithmic capital accumulation. The user is no longer the customer, nor even the product; rather, the user is the uncompensated terra nullius from which cognitive resources are ruthlessly strip-mined."
+    },
+    {
+      "letter": "E",
+      "text": "The psychological externalities of this system are becoming increasingly quantifiable. Sociologists note a rising epidemic of \"continuous partial attention, an unnatural cognitive state wherein an individual maintains a superficial, high-alert scan of multiple digital streams simultaneously, never achieving the deep, unfragmented focus required for complex analytical reasoning or meaningful empathetic connection. Longitudinal studies suggest this chronic attentional fragmentation correlates strongly with elevated cortisol levels, pervasive societal anxiety, and a measurable degradation in democratic discourse, as emotionally incendiary micro-content reliably outcompetes nuanced argumentation in algorithmic visibility."
+    },
+    {
+      "letter": "F",
+      "text": "In response to this cognitive crisis, a nascent movement advocating for \"cognitive ergonomics\" and \"time well spent\" is gaining legislative traction. European regulatory bodies have begun floating the concept of a \"Right to Disconnect, alongside proposals to strictly regulate persuasive design patterns. However, transitioning away from an attention-extractive economy necessitates a fundamental realignment of digital incentive structures—shifting the core metrics of technological success from raw \"time-on-site\" to the qualitative enhancement of human agency and well-being."
+    }
+  ],
+  "groups": [
+    {
+      "type": "matching_headings",
+      "position": 1,
+      "heading": "Questions · matching headings",
+      "instruction": "The reading passage has six paragraphs, A–F. Choose the correct heading for each paragraph from the list of headings below.",
+      "optionsTitle": "List of options",
+      "options": [
+        {
+          "value": "i",
+          "label": "The biological limitations of data processing"
+        },
+        {
+          "value": "ii",
+          "label": "Operant conditioning in user interface design"
+        },
+        {
+          "value": "iii",
+          "label": "Evaluating the societal and neurobiological toll"
+        },
+        {
+          "value": "iv",
+          "label": "Legislative efforts toward cognitive protection"
+        },
+        {
+          "value": "v",
+          "label": "The commodification of behavioral predictions"
+        },
+        {
+          "value": "vi",
+          "label": "A historical oversight in psychological research"
+        },
+        {
+          "value": "vii",
+          "label": "The foundational theory of information abundance"
+        },
+        {
+          "value": "viii",
+          "label": "Algorithms designed for educational enhancement"
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Paragraph A",
+          "acceptedAnswers": [
+            "vii"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "Paragraph B",
+          "acceptedAnswers": [
+            "i"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "Paragraph C",
+          "acceptedAnswers": [
+            "ii"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "Paragraph D",
+          "acceptedAnswers": [
+            "v"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 5,
+          "prompt": "Paragraph E",
+          "acceptedAnswers": [
+            "iii"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 6,
+          "prompt": "Paragraph F",
+          "acceptedAnswers": [
+            "iv"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "type": "matching_information",
+      "position": 2,
+      "heading": "Questions · matching information",
+      "instruction": "Which paragraph contains the following information? Write the correct letter, A–F.",
+      "optionsTitle": "List of options",
+      "options": [
+        {
+          "value": "A",
+          "label": "Paragraph A"
+        },
+        {
+          "value": "B",
+          "label": "Paragraph B"
+        },
+        {
+          "value": "C",
+          "label": "Paragraph C"
+        },
+        {
+          "value": "D",
+          "label": "Paragraph D"
+        },
+        {
+          "value": "E",
+          "label": "Paragraph E"
+        },
+        {
+          "value": "F",
+          "label": "Paragraph F"
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "A description of how unstructured, volatile digital streams degrade democratic interactions.",
+          "acceptedAnswers": [
+            "E"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "An explanation of why the unpredictability of digital rewards forces compulsive user behavior.",
+          "acceptedAnswers": [
+            "C"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "The assertion that users are treated merely as territories to be mined for data.",
+          "acceptedAnswers": [
+            "D"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "Mention of a proposal to legally safeguard an individual's right to detach from digital networks.",
+          "acceptedAnswers": [
+            "F"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "position": 3,
+      "heading": "Questions · multiple choice",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. Expanding the neurobiological capacity of the human brain."
+        },
+        {
+          "value": "B",
+          "label": "B. Overwhelming users with rational, highly complex arguments."
+        },
+        {
+          "value": "C",
+          "label": "C. Circumventing rational thought to stimulate foundational reward pathways."
+        },
+        {
+          "value": "D",
+          "label": "D. Decreasing the exponential velocity of global data generation."
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "According to Paragraph B, tech companies successfully manipulate users by:",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Expanding the neurobiological capacity of the human brain."
+            },
+            {
+              "value": "B",
+              "label": "B. Overwhelming users with rational, highly complex arguments."
+            },
+            {
+              "value": "C",
+              "label": "C. Circumventing rational thought to stimulate foundational reward pathways."
+            },
+            {
+              "value": "D",
+              "label": "D. Decreasing the exponential velocity of global data generation."
+            }
+          ],
+          "acceptedAnswers": [
+            "C"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "Shoshana Zuboff's concept of \"surveillance capitalism\" implies that:",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Users directly purchase predictive models from technology conglomerates."
+            },
+            {
+              "value": "B",
+              "label": "B. Human experiences are commodified into speculative assets traded by algorithms."
+            },
+            {
+              "value": "C",
+              "label": "C. Targeted advertising is the sole mechanism of revenue generation."
+            },
+            {
+              "value": "D",
+              "label": "D. Consumers maintain ownership over their granular behavioral data."
+            }
+          ],
+          "acceptedAnswers": [
+            "B"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "What is the primary consequence of \"continuous partial attention\" as identified in the text?",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. A heightened ability to process emotionally incendiary content."
+            },
+            {
+              "value": "B",
+              "label": "B. An improvement in multi-tasking and operational efficiency."
+            },
+            {
+              "value": "C",
+              "label": "C. A decrease in cortisol levels during prolonged digital exposure."
+            },
+            {
+              "value": "D",
+              "label": "D. An inability to engage in profound focus or meaningful empathy."
+            }
+          ],
+          "acceptedAnswers": [
+            "D"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "The author's stance on resolving the cognitive crisis involves:",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Shifting corporate metrics from engagement duration to user well-being."
+            },
+            {
+              "value": "B",
+              "label": "B. Enhancing the variable ratio schedules used in platform interfaces."
+            },
+            {
+              "value": "C",
+              "label": "C. Rejecting all forms of European technological regulation."
+            },
+            {
+              "value": "D",
+              "label": "D. Acknowledging that information abundance is fundamentally irreversible."
+            }
+          ],
+          "acceptedAnswers": [
+            "A"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        }
+      ]
+    }
+  ],
+  "attribution": "LuchoBazz / ielts-ai-dataset",
+  "license": "CC-BY-4.0",
+  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset"
+}

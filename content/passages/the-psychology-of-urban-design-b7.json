@@ -1,0 +1,364 @@
+{
+  "slug": "the-psychology-of-urban-design-b7",
+  "title": "The Psychology of Urban Design",
+  "topic": "imported",
+  "targetBand": 7,
+  "source": "licensed",
+  "paragraphs": [
+    {
+      "letter": "A",
+      "text": "For centuries, urban planners focused primarily on the functional efficiency of cities: traffic flow, sanitation, and industrial zoning. However, contemporary research in environmental psychology has sparked a paradigm shift, demonstrating that cities have a profound impact on human emotional well-being. The built environment is no longer viewed merely as a passive backdrop to human activity, but as an active agent that significantly shapes our cognitive states, stress levels, and social behaviors."
+    },
+    {
+      "letter": "B",
+      "text": "A foundational concept in this field is biophilia, the psychological principle that explains human attraction to nature and natural systems. Studies consistently show that urban populations with regular access to green spaces exhibit significantly lower baseline levels of cortisol, the primary stress hormone. Parks, tree-lined avenues, and even small community gardens provide crucial cognitive restoration, allowing the brain to recover from the sensory overload typical of dense urban environments. Integrating natural elements into cityscapes is not merely a cosmetic luxury; it is a fundamental public health necessity."
+    },
+    {
+      "letter": "C",
+      "text": "Navigability, or how easily individuals can orient themselves and move through a city, is another critical psychological factor. Clear, highly legible street layouts with prominent architectural landmarks allow residents to form accurate mental maps. Conversely, confusing street layouts and winding paths without distinct landmarks severely increase anxiety and disorientation. When people feel perpetually lost in their own environment, it fosters an underlying sense of vulnerability and drastically reduces their willingness to explore their surroundings."
+    },
+    {
+      "letter": "D",
+      "text": "The physical aesthetics of architecture also matter deeply. The materials, scale, and facade of buildings communicate specific emotional cues. Imposing concrete buildings, typical of mid-century Brutalism, often provoke feelings of alienation, intimidation, and unease, emphasizing institutional power over individual comfort. In contrast, architecture that incorporates organic curves, varied textures, and human-scaled proportions tends to foster feelings of safety and warmth. The visual monotony of endless glass skyscrapers can be as psychologically exhausting as an aggressively harsh concrete block."
+    },
+    {
+      "letter": "E",
+      "text": "Furthermore, the design of social spaces dictates the quality of community interaction. Public squares, wide pedestrian sidewalks, and accessible plazas are essential for fostering community relationships and combating urban loneliness. When cities prioritize automotive traffic over pedestrian infrastructure, they inadvertently design out the casual, serendipitous social encounters that build neighborhood cohesion and trust. A well-designed public square acts as an outdoor living room, a democratic space where diverse demographics can co-exist and interact."
+    },
+    {
+      "letter": "F",
+      "text": "Looking forward, the future lies in human-centric urban design. City planners are increasingly using data analytics and biometric feedback to monitor urban well-being and design better, more responsive cities. By understanding the intricate psychological mechanisms triggered by urban environments, the next generation of architects and planners can intentionally construct cities that not only house millions of people but actively nurture their mental health and social connectivity."
+    }
+  ],
+  "groups": [
+    {
+      "type": "matching_headings",
+      "position": 1,
+      "heading": "Questions · matching headings",
+      "instruction": "The reading passage has six paragraphs, A–F. Choose the correct heading for each paragraph from the list of headings below.",
+      "optionsTitle": "List of options",
+      "options": [
+        {
+          "value": "i",
+          "label": "The importance of clear urban orientation"
+        },
+        {
+          "value": "ii",
+          "label": "A shift in how cities are perceived"
+        },
+        {
+          "value": "iii",
+          "label": "Spaces that encourage human connection"
+        },
+        {
+          "value": "iv",
+          "label": "The emotional impact of building styles"
+        },
+        {
+          "value": "v",
+          "label": "The biological need for natural elements"
+        },
+        {
+          "value": "vi",
+          "label": "Using modern data for future development"
+        },
+        {
+          "value": "vii",
+          "label": "The economic cost of public parks"
+        },
+        {
+          "value": "viii",
+          "label": "Historical traffic management systems"
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Paragraph A",
+          "acceptedAnswers": [
+            "ii"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "Paragraph B",
+          "acceptedAnswers": [
+            "v"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "Paragraph C",
+          "acceptedAnswers": [
+            "i"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "Paragraph D",
+          "acceptedAnswers": [
+            "iv"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 5,
+          "prompt": "Paragraph E",
+          "acceptedAnswers": [
+            "iii"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 6,
+          "prompt": "Paragraph F",
+          "acceptedAnswers": [
+            "vi"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "type": "matching_information",
+      "position": 2,
+      "heading": "Questions · matching information",
+      "instruction": "Which paragraph contains the following information? Write the correct letter, A–F.",
+      "optionsTitle": "List of options",
+      "options": [
+        {
+          "value": "A",
+          "label": "Paragraph A"
+        },
+        {
+          "value": "B",
+          "label": "Paragraph B"
+        },
+        {
+          "value": "C",
+          "label": "Paragraph C"
+        },
+        {
+          "value": "D",
+          "label": "Paragraph D"
+        },
+        {
+          "value": "E",
+          "label": "Paragraph E"
+        },
+        {
+          "value": "F",
+          "label": "Paragraph F"
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "An explanation of how confusing street layouts can increase anxiety.",
+          "acceptedAnswers": [
+            "C"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "The psychological term describing human attraction to nature.",
+          "acceptedAnswers": [
+            "B"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "The role of public squares in combating urban loneliness.",
+          "acceptedAnswers": [
+            "E"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "The emotional reaction often caused by imposing concrete structures.",
+          "acceptedAnswers": [
+            "D"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 5,
+          "prompt": "The implementation of biometric feedback to design better cities.",
+          "acceptedAnswers": [
+            "F"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "position": 3,
+      "heading": "Questions · multiple choice",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. A significant reduction in the primary stress hormone."
+        },
+        {
+          "value": "B",
+          "label": "B. An increase in physical fitness due to more walking."
+        },
+        {
+          "value": "C",
+          "label": "C. Complete immunity to sensory overload."
+        },
+        {
+          "value": "D",
+          "label": "D. A faster recovery from physical illnesses."
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "According to Paragraph B, what is a physiological benefit of access to green spaces?",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. A significant reduction in the primary stress hormone."
+            },
+            {
+              "value": "B",
+              "label": "B. An increase in physical fitness due to more walking."
+            },
+            {
+              "value": "C",
+              "label": "C. Complete immunity to sensory overload."
+            },
+            {
+              "value": "D",
+              "label": "D. A faster recovery from physical illnesses."
+            }
+          ],
+          "acceptedAnswers": [
+            "A"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "Brutalist architecture is mentioned in Paragraph D primarily to illustrate",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. the cost-effectiveness of using concrete in modern cities."
+            },
+            {
+              "value": "B",
+              "label": "B. how certain building materials can provoke feelings of alienation."
+            },
+            {
+              "value": "C",
+              "label": "C. the historical progression of urban design trends."
+            },
+            {
+              "value": "D",
+              "label": "D. why skyscrapers are more psychologically exhausting than smaller buildings."
+            }
+          ],
+          "acceptedAnswers": [
+            "B"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "What is the overall message of the passage regarding urban design?",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Cities should prioritize traffic flow to reduce economic losses."
+            },
+            {
+              "value": "B",
+              "label": "B. Historical architecture should be entirely replaced by modern structures."
+            },
+            {
+              "value": "C",
+              "label": "C. The physical environment fundamentally influences human emotional health."
+            },
+            {
+              "value": "D",
+              "label": "D. People naturally prefer living in rural areas over urban ones."
+            }
+          ],
+          "acceptedAnswers": [
+            "C"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        }
+      ]
+    }
+  ],
+  "attribution": "LuchoBazz / ielts-ai-dataset",
+  "license": "CC-BY-4.0",
+  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset"
+}

@@ -1,0 +1,169 @@
+{
+  "slug": "the-linguistic-decipherment-of-linear-elamite-b9",
+  "title": "The Linguistic Decipherment of Linear Elamite",
+  "topic": "imported",
+  "targetBand": 9,
+  "source": "licensed",
+  "paragraphs": [
+    {
+      "letter": "A",
+      "text": "For over a century, the ancient script known as Linear Elamite stood as one of the great unresolved enigmas of early epigraphy. Originating in the contemporary region of southwestern Iran during the late 3rd millennium BCE, the script was coeval with the famed Mesopotamian Cuneiform but remained stubbornly undeciphered. This was largely due to a severe paucity of bilingual texts. Unlike the Rosetta Stone, which provided a direct isomorphic bridge between Egyptian Hieroglyphs and ancient Greek, the extant corpus of Linear Elamite comprised a mere 40 fragmentary inscriptions. These fragmented remnants, discovered primarily in the ancient metropolis of Susa, offered linguists an exceptionally narrow statistical dataset from which to extract grammatical or phonetic patterns."
+    },
+    {
+      "letter": "B",
+      "text": "The breakthrough in decipherment did not occur through a singular, monolithic discovery, but rather through the meticulous, cumulative efforts of a team led by French archaeologist François Desset in the late 2010s. The turning point hinged upon the analysis of a specific group of artifacts known as the \"gunagi\" vessels—intricately engraved silver beakers recovered from the Kamtiri region. Crucially, these beakers bore inscriptions in both Mesopotamian Cuneiform and Linear Elamite, detailing the names and titularies of local rulers. By cross-referencing the known cuneiform phonetic values of these royal names with the unknown Elamite symbols, Desset's team established a reliable phonetic anchor."
+    },
+    {
+      "letter": "C",
+      "text": "What emerged from this linguistic excavation profoundly challenged established historiographical orthodoxies. Previously, prevailing scholarly consensus held that the development of writing was a strictly unilateral phenomenon, radiating outward from a single origin point in southern Mesopotamia. However, the structure of Linear Elamite suggested an independent, indigenous evolution of writing in the Iranian plateau. Furthermore, while early Mesopotamian scripts were heavily logophonetic—utilizing hundreds of symbols to represent entire words alongside syllables—Linear Elamite was revealed to be a highly streamlined, almost purely phonetic system utilizing merely 80 to 100 signs."
+    },
+    {
+      "letter": "D",
+      "text": "The decipherment of Linear Elamite fundamentally restructures our understanding of Bronze Age communication networks. It indicates a sophisticated intellectual milieu in Elam, characterized by a deliberate departure from the cumbersome logographic systems of their western neighbors. The phonetic elegance of Linear Elamite arguably democratized record-keeping, allowing scribes to draft administrative, royal, and perhaps even literary texts with unprecedented efficiency."
+    },
+    {
+      "letter": "E",
+      "text": "Despite this monumental triumph, the translation of the entire Elamite corpus remains an ongoing endeavor. The script has been unlocked, but the underlying Elamite language itself—a language isolate with no known living relatives—continues to present formidable semantic challenges. Epigraphers now face the arduous task of reconstructing the lexicon and syntax of a civilization that has been silent for over four millennia, relying on the structural framework that Desset's phonetic key has finally provided."
+    }
+  ],
+  "groups": [
+    {
+      "type": "true_false_not_given",
+      "position": 1,
+      "heading": "Questions · true false not given",
+      "instruction": "Do the following statements agree with the information given in the passage? Write TRUE, FALSE, or NOT GIVEN.",
+      "options": [
+        {
+          "value": "TRUE",
+          "label": "True"
+        },
+        {
+          "value": "FALSE",
+          "label": "False"
+        },
+        {
+          "value": "NOT GIVEN",
+          "label": "Not Given"
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "The Rosetta Stone was utilized by François Desset to translate Linear Elamite.",
+          "acceptedAnswers": [
+            "FALSE",
+            "False",
+            "false"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "The surviving examples of Linear Elamite inscriptions were statistically limited.",
+          "acceptedAnswers": [
+            "TRUE",
+            "True",
+            "true"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "The decipherment proved that writing originated exclusively in southern Mesopotamia.",
+          "acceptedAnswers": [
+            "FALSE",
+            "False",
+            "false"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "Linear Elamite was predominantly used for agricultural accounting.",
+          "acceptedAnswers": [
+            "NOT GIVEN",
+            "Not Given",
+            "not given"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "type": "short_answer",
+      "position": 2,
+      "heading": "Questions · short answer",
+      "instruction": "Answer the questions below. Choose NO MORE THAN THREE WORDS from the passage for each answer.",
+      "maxWords": 3,
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "What type of texts were notoriously lacking, hindering early decipherment efforts?",
+          "acceptedAnswers": [
+            "bilingual texts",
+            "bilingual"
+          ],
+          "skillIds": [
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "What specific term refers to the artifacts that ultimately provided the phonetic anchor?",
+          "acceptedAnswers": [
+            "gunagi vessels",
+            "gunagi"
+          ],
+          "skillIds": [
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "How many signs approximately did the Linear Elamite writing system utilize?",
+          "acceptedAnswers": [
+            "80 to 100",
+            "80-100"
+          ],
+          "skillIds": [
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "How is the Elamite language classified linguistically by modern epigraphers?",
+          "acceptedAnswers": [
+            "language isolate",
+            "a language isolate"
+          ],
+          "skillIds": [
+            "scanning"
+          ],
+          "explanation": ""
+        }
+      ]
+    }
+  ],
+  "attribution": "LuchoBazz / ielts-ai-dataset",
+  "license": "CC-BY-4.0",
+  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset"
+}

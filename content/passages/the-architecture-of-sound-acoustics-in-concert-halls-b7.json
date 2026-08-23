@@ -1,0 +1,382 @@
+{
+  "slug": "the-architecture-of-sound-acoustics-in-concert-halls-b7",
+  "title": "The Architecture of Sound: Acoustics in Concert Halls",
+  "topic": "imported",
+  "targetBand": 7,
+  "source": "licensed",
+  "paragraphs": [
+    {
+      "letter": "A",
+      "text": "Until the late 19th century, the acoustic success of a concert hall was largely a matter of architectural luck. Builders relied on intuition and imitation of existing successful venues. The scientific study of room acoustics only began in earnest in 1895 when Wallace Clement Sabine, a physics professor at Harvard University, was asked to fix the terrible acoustics of the Fogg Art Museum's lecture hall. Through rigorous experimentation using organ pipes and stopwatches, Sabine discovered that the duration a sound lingers in a room—which he termed \"reverberation time\"—is mathematically related to the room's volume and the sound-absorbing properties of its surfaces."
+    },
+    {
+      "letter": "B",
+      "text": "Reverberation time (RT) quickly became the foundational metric of acoustic design. The optimal RT depends entirely on the purpose of the space. For spoken word or rapid, intricate chamber music, a short RT (around 1 to 1.5 seconds) is preferred to maintain clarity, ensuring that rapid notes do not bleed into one another. Conversely, large symphonic works, such as those by Wagner or Mahler, benefit from a longer RT (around 2 to 2.2 seconds). This extended decay allows the sounds of dozens of instruments to blend into a rich, immersive sonic wash, giving the music a sense of warmth and grandeur."
+    },
+    {
+      "letter": "C",
+      "text": "Historically, the most consistently praised concert halls—such as the Musikverein in Vienna and the Concertgebouw in Amsterdam—share a common architectural shape: the \"shoebox.\" Characterized by a rectangular floor plan, high ceilings, and narrow width, the shoebox design naturally creates excellent acoustic conditions. Its secret lies in \"lateral reflections.\" Because the side walls are relatively close together, sound waves reflecting off them reach the listener’s ears from the sides just milliseconds after the direct sound from the stage. These lateral reflections are interpreted by the human brain as a sense of spaciousness and envelopment, making the listener feel surrounded by the music."
+    },
+    {
+      "letter": "D",
+      "text": "Despite the proven reliability of the shoebox, the mid-20th century saw a shift toward \"vineyard\" style halls, pioneered by Hans Scharoun’s Berlin Philharmonie in 1963. In a vineyard hall, the seating is divided into steep terraces surrounding the stage on all sides. This design was driven primarily by a desire for visual intimacy and democratic seating, bringing the audience closer to the performers. However, the lack of parallel side walls removes the natural lateral reflections found in shoebox halls. To compensate, acousticians must intricately design the terraced walls and suspend reflective panels from the ceiling to artificially direct sound outward to the audience."
+    },
+    {
+      "letter": "E",
+      "text": "Modern acousticians no longer rely on guesswork. Before a single brick is laid, contemporary concert halls undergo rigorous virtual and physical testing. Engineers use advanced computer software to trace the path of thousands of simulated sound rays, calculating how they bounce, scatter, and decay. Furthermore, highly detailed physical scale models are built (often at a 1:10 scale) and filled with nitrogen gas to correct for sound wave scaling. By recording miniature sound sources inside these models, acousticians can use a process called \"auralization\" to listen to what the finished hall will sound like, allowing them to adjust the angle of a balcony or the material of a wall to optimize the acoustics."
+    },
+    {
+      "letter": "F",
+      "text": "Yet, despite the sophistication of modern acoustic science, the perception of sound remains inherently subjective. Psychologists have noted that an audience’s visual environment significantly alters their acoustic evaluation. A hall decorated in warm woods and rich reds is often perceived as having a \"warmer\" sound than a visually stark, concrete hall, even if their objective acoustic measurements are identical. Ultimately, the architecture of sound is not just about physics; it is deeply intertwined with human psychology and expectation."
+    }
+  ],
+  "groups": [
+    {
+      "type": "matching_headings",
+      "position": 1,
+      "heading": "Questions · matching headings",
+      "instruction": "The reading passage has six paragraphs, A–F. Choose the correct heading for each paragraph from the list of headings below.",
+      "optionsTitle": "List of options",
+      "options": [
+        {
+          "value": "i",
+          "label": "Visual intimacy versus acoustic complexity"
+        },
+        {
+          "value": "ii",
+          "label": "Measuring and optimizing sound decay"
+        },
+        {
+          "value": "iii",
+          "label": "The enduring success of a traditional shape"
+        },
+        {
+          "value": "iv",
+          "label": "How non-auditory factors affect listening"
+        },
+        {
+          "value": "v",
+          "label": "The origins of architectural acoustics"
+        },
+        {
+          "value": "vi",
+          "label": "The failure of computer modeling in modern design"
+        },
+        {
+          "value": "vii",
+          "label": "The role of modern technology in hall design"
+        },
+        {
+          "value": "viii",
+          "label": "Why symphonies are harder to perform than chamber music"
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Paragraph A",
+          "acceptedAnswers": [
+            "v"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "Paragraph B",
+          "acceptedAnswers": [
+            "ii"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "Paragraph C",
+          "acceptedAnswers": [
+            "iii"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "Paragraph D",
+          "acceptedAnswers": [
+            "i"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 5,
+          "prompt": "Paragraph E",
+          "acceptedAnswers": [
+            "vii"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 6,
+          "prompt": "Paragraph F",
+          "acceptedAnswers": [
+            "iv"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "type": "matching_information",
+      "position": 2,
+      "heading": "Questions · matching information",
+      "instruction": "Which paragraph contains the following information? Write the correct letter, A–F.",
+      "optionsTitle": "List of options",
+      "options": [
+        {
+          "value": "A",
+          "label": "Paragraph A"
+        },
+        {
+          "value": "B",
+          "label": "Paragraph B"
+        },
+        {
+          "value": "C",
+          "label": "Paragraph C"
+        },
+        {
+          "value": "D",
+          "label": "Paragraph D"
+        },
+        {
+          "value": "E",
+          "label": "Paragraph E"
+        },
+        {
+          "value": "F",
+          "label": "Paragraph F"
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "A reference to the earliest scientific measurements of room acoustics.",
+          "acceptedAnswers": [
+            "A"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "An explanation of why narrow concert halls produce superior sound envelopment.",
+          "acceptedAnswers": [
+            "C"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "Examples of techniques used by acousticians to predict sound before construction.",
+          "acceptedAnswers": [
+            "E"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "The idea that what an audience sees visually can alter their evaluation of sound.",
+          "acceptedAnswers": [
+            "F"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "position": 3,
+      "heading": "Questions · multiple choice",
+      "instruction": "Choose the correct letter, A, B, C or D.",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. The high ceilings reduce the need for reverberation time."
+        },
+        {
+          "value": "B",
+          "label": "B. It provides strong lateral sound reflections to the audience."
+        },
+        {
+          "value": "C",
+          "label": "C. It allows for more democratic and visually intimate seating."
+        },
+        {
+          "value": "D",
+          "label": "D. It limits the blending of large symphonic instruments."
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "According to the passage, the \"shoebox\" design is acoustically successful primarily because:",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. The high ceilings reduce the need for reverberation time."
+            },
+            {
+              "value": "B",
+              "label": "B. It provides strong lateral sound reflections to the audience."
+            },
+            {
+              "value": "C",
+              "label": "C. It allows for more democratic and visually intimate seating."
+            },
+            {
+              "value": "D",
+              "label": "D. It limits the blending of large symphonic instruments."
+            }
+          ],
+          "acceptedAnswers": [
+            "B"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "The \"vineyard\" style of concert hall was originally developed to:",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Maximize the natural lateral reflections of sound."
+            },
+            {
+              "value": "B",
+              "label": "B. Lower the cost of construction by removing parallel walls."
+            },
+            {
+              "value": "C",
+              "label": "C. Improve the audience’s visual connection to the performers."
+            },
+            {
+              "value": "D",
+              "label": "D. Create a warmer sound using steep wooden terraces."
+            }
+          ],
+          "acceptedAnswers": [
+            "C"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "What does the passage say about reverberation time (RT)?",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Different genres of music require different optimal RTs."
+            },
+            {
+              "value": "B",
+              "label": "B. A long RT is always preferable to a short RT."
+            },
+            {
+              "value": "C",
+              "label": "C. RT was primarily used to fix the Fogg Art Museum."
+            },
+            {
+              "value": "D",
+              "label": "D. A short RT helps blend the sound of large symphonic works."
+            }
+          ],
+          "acceptedAnswers": [
+            "A"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "The writer’s overall conclusion about concert hall acoustics is that:",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Computer modeling will eventually make physical testing obsolete."
+            },
+            {
+              "value": "B",
+              "label": "B. The shoebox design is no longer relevant for modern orchestras."
+            },
+            {
+              "value": "C",
+              "label": "C. Visual aesthetics are more important than physical acoustics."
+            },
+            {
+              "value": "D",
+              "label": "D. It remains a complex blend of objective science and subjective perception."
+            }
+          ],
+          "acceptedAnswers": [
+            "D"
+          ],
+          "skillIds": [
+            "main_idea",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        }
+      ]
+    }
+  ],
+  "attribution": "LuchoBazz / ielts-ai-dataset",
+  "license": "CC-BY-4.0",
+  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset"
+}

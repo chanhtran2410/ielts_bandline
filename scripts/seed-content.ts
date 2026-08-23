@@ -40,6 +40,11 @@ async function seedPassage(config: SupabaseConfig, passage: Passage): Promise<vo
         word_count: wordCount,
         target_band: passage.targetBand,
         source: passage.source,
+        // Carried through so the credit lives beside the content. The DB has a
+        // check constraint that refuses licensed material without it.
+        attribution: passage.attribution ?? null,
+        license: passage.license ?? null,
+        source_url: passage.sourceUrl ?? null,
       },
     ],
   });
@@ -87,7 +92,7 @@ async function seedPassage(config: SupabaseConfig, passage: Passage): Promise<vo
         options: q.options ?? null,
         accepted_answers: q.acceptedAnswers,
         skill_ids: q.skillIds,
-        explanation: q.explanation,
+        explanation: q.explanation === '' ? null : q.explanation,
         evidence_paragraph: q.evidenceParagraph ?? null,
         evidence: q.evidence ?? null,
       })),

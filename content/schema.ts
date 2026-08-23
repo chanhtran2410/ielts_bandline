@@ -57,7 +57,13 @@ export const QuestionSchema = z.object({
   options: z.array(OptionSchema).min(2).max(10).optional(),
   acceptedAnswers: z.array(z.string().min(1)).min(1).max(6),
   skillIds: z.array(z.string().min(1)).min(1).max(4),
-  explanation: z.string().min(20).max(800),
+  /**
+   * Why the answer is right. Optional because imported question sets routinely
+   * arrive with an answer key and no reasoning. An empty string means "not
+   * written yet" and is preferred over invented teaching — a plausible-sounding
+   * fabricated explanation is worse than none, because the learner believes it.
+   */
+  explanation: z.union([z.literal(''), z.string().min(20).max(800)]),
   evidenceParagraph: z.string().regex(/^[A-Z]$/).optional(),
   evidence: z.string().min(5).max(400).optional(),
 });
@@ -87,9 +93,17 @@ export const PassageSchema = z.object({
   /** Which band the passage is pitched at. Drives selection by difficulty. */
   targetBand: z.number().min(4).max(9),
   source: z.enum(['ai_generated', 'authored', 'licensed']).default('ai_generated'),
+  /** Required for `licensed` content — CC BY and similar make credit a condition. */
+  attribution: z.string().min(3).optional(),
+  /** SPDX-style identifier, e.g. CC-BY-4.0. */
+  license: z.string().min(3).optional(),
+  sourceUrl: z.string().url().optional(),
   paragraphs: z.array(ParagraphSchema).min(4).max(9),
   groups: z.array(QuestionGroupSchema).min(2),
-});
+}).refine(
+  (p) => p.source !== 'licensed' || (p.attribution !== undefined && p.license !== undefined),
+  { message: 'licensed content must carry attribution and license' },
+);
 
 export const WritingTaskSchema = z.object({
   slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),

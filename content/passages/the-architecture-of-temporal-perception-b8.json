@@ -1,0 +1,213 @@
+{
+  "slug": "the-architecture-of-temporal-perception-b8",
+  "title": "The Architecture of Temporal Perception",
+  "topic": "imported",
+  "targetBand": 8,
+  "source": "licensed",
+  "paragraphs": [
+    {
+      "letter": "A",
+      "text": "Time, from the strict perspective of physics, progresses steadily and uniformly—a relentless forward arrow codified by the laws of thermodynamics. Yet, human psychological perception of time exhibits profound elasticity. A terrifying accident can stretch mere seconds into perceived hours, while an engaging conversation can cause an evening to seemingly vanish. Understanding how the human brain constructs, distorts, and navigates the dimension of time—a phenomenon known as subjective temporality—has become a paramount focus at the intersection of neuroscience and psychology."
+    },
+    {
+      "letter": "B",
+      "text": "The neurological underpinning of time perception is not centralized in a single biological clock, but rather dispersed across complex neural networks. The basal ganglia and the supplementary motor area are primarily responsible for micro-timing (measuring milliseconds to seconds), which is essential for speech processing and motor coordination. Conversely, the hippocampus and the prefrontal cortex manage macro-timing, orchestrating episodic memories to provide a chronological framework for hours, days, and years. Crucially, the neurotransmitter dopamine acts as the primary pacemaker. Increased dopaminergic activity—often triggered by excitement or novel stimuli—accelerates the internal biological clock, leading to the sensation that external time is passing precipitously fast."
+    },
+    {
+      "letter": "C",
+      "text": "Emotional valence drastically obfuscates temporal accuracy. The concept of \"chronostasis\" is frequently documented during high-stress encounters; when an individual is confronted with imminent danger, the brain's amygdala initiates a state of hyper-arousal. During this phase, memory encoding occurs with extreme density. Because the brain retrospectively judges the duration of an event by the volume of memories recorded during that interval, the densely packed data creates the illusion that the threatening event lasted significantly longer than reality dictates."
+    },
+    {
+      "letter": "D",
+      "text": "The acceleration of perceived time as humans age is an almost universally reported phenomenon. In 1897, the philosopher Paul Janet proposed the proportional theory, suggesting that a year feels shorter to a fifty-year-old than to a five-year-old because it represents a vastly smaller fraction of their accumulated lifespan. However, contemporary cognitive scientists favor the \"neural degradation and routine\" hypothesis. Children possess brains highly receptive to novel experiences, requiring substantial cognitive processing that thickens temporal memory. Adults, entrenched in routine, encode significantly fewer distinct new memories. Consequently, when an adult reviews a mundane year retrospectively, the scarcity of dense memory markers causes the time to appear compressed."
+    },
+    {
+      "letter": "E",
+      "text": "Furthermore, temporal perception is intricately tethered to cultural paradigms. Sociologist Edward T. Hall delineated between \"monochronic\" and \"polychronic\" cultures. Monochronic societies, predominant in Western, industrialized nations, view time as a scarce, linear commodity that must be rigidly managed, segmented, and spent efficiently. In contrast, polychronic cultures, frequently found in Southern Europe, Latin America, and parts of the Middle East, conceptualize time as fluid and cyclical. In these societies, interpersonal relationships take precedence over strict adherence to schedules, leading to a fundamentally divergent phenomenological experience of waiting, urgency, and duration."
+    },
+    {
+      "letter": "F",
+      "text": "In the contemporary era, the omnipresence of digital technology is orchestrating a subtle but profound reconfiguration of human temporality. The constant barrage of notifications and the expectation of immediate responsiveness have birthed a state of \"continuous partial attention.\" This fragmented cognitive state severs the deep concentration required for entering a flow state — the psychological condition wherein time perception elegantly suspends itself. Some psychologists argue that digital hyper-connectivity is actively eroding our capacity for deep, sustained temporal immersion, replacing it with a fractured, perpetually accelerating present that breeds chronic temporal anxiety."
+    }
+  ],
+  "groups": [
+    {
+      "type": "yes_no_not_given",
+      "position": 1,
+      "heading": "Questions · yes no not given",
+      "instruction": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO, or NOT GIVEN.",
+      "options": [
+        {
+          "value": "YES",
+          "label": "Yes"
+        },
+        {
+          "value": "NO",
+          "label": "No"
+        },
+        {
+          "value": "NOT GIVEN",
+          "label": "Not Given"
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "Human perception of time aligns perfectly with the laws of physics and thermodynamics.",
+          "acceptedAnswers": [
+            "NO",
+            "No",
+            "no"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "The hippocampus is solely responsible for processing short intervals of time, such as milliseconds.",
+          "acceptedAnswers": [
+            "NO",
+            "No",
+            "no"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "Dopamine levels directly influence the perceived speed at which time passes.",
+          "acceptedAnswers": [
+            "YES",
+            "Yes",
+            "yes"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "Modern cognitive scientists completely reject Paul Janet's proportional theory of time.",
+          "acceptedAnswers": [
+            "NOT GIVEN",
+            "Not Given",
+            "not given"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 5,
+          "prompt": "Monochronic cultures tend to prioritize human relationships over strict punctuality.",
+          "acceptedAnswers": [
+            "NO",
+            "No",
+            "no"
+          ],
+          "skillIds": [
+            "inference",
+            "scanning"
+          ],
+          "explanation": ""
+        }
+      ]
+    },
+    {
+      "type": "matching_features",
+      "position": 2,
+      "heading": "Questions · matching sentence endings",
+      "instruction": "Complete each sentence with the correct ending, A–F, from the box below.",
+      "optionsTitle": "List of options",
+      "options": [
+        {
+          "value": "A",
+          "label": "A. people prioritize social connections over rigid schedules."
+        },
+        {
+          "value": "B",
+          "label": "B. the lack of new experiences makes time appear to shrink in retrospect."
+        },
+        {
+          "value": "C",
+          "label": "C. a brief traumatic incident feels significantly prolonged."
+        },
+        {
+          "value": "D",
+          "label": "D. individuals achieve a state of deep concentration known as a flow state."
+        },
+        {
+          "value": "E",
+          "label": "E. the internal biological clock slows down significantly."
+        },
+        {
+          "value": "F",
+          "label": "F. digital hyper-connectivity causes chronic anxiety."
+        }
+      ],
+      "questions": [
+        {
+          "position": 1,
+          "prompt": "During moments of extreme fear, the brain encodes memories so densely that",
+          "acceptedAnswers": [
+            "C"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 2,
+          "prompt": "Because older adults generally live highly routine lives,",
+          "acceptedAnswers": [
+            "B"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 3,
+          "prompt": "In societies characterized by polychronic cultural traits,",
+          "acceptedAnswers": [
+            "A"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        },
+        {
+          "position": 4,
+          "prompt": "The continuous partial attention demanded by modern technology hinders the ability of",
+          "acceptedAnswers": [
+            "D"
+          ],
+          "skillIds": [
+            "scanning",
+            "paraphrasing"
+          ],
+          "explanation": ""
+        }
+      ]
+    }
+  ],
+  "attribution": "LuchoBazz / ielts-ai-dataset",
+  "license": "CC-BY-4.0",
+  "sourceUrl": "https://github.com/LuchoBazz/ielts-ai-dataset"
+}
